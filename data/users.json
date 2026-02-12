@@ -1,0 +1,2129 @@
+{
+  "admin": {
+    "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "role": "admin",
+    "name": "Administrator",
+    "analysis_results": []
+  },
+  "Srivardhan": {
+    "password": "b22f213ec710f0b0e86297d10279d69171f50f01a04edf40f472a563e7ad8576",
+    "role": "user",
+    "name": "Kondu Srivardhan Rao",
+    "analysis_results": [
+      {
+        "Unnamed: 0": 0,
+        "company_name": "ABC Manufacturing Co",
+        "sales": 5000000,
+        "revenue_growth": 0.15,
+        "profit_margin": 0.25,
+        "employee_growth": 0.12,
+        "debt_ratio": 0.45,
+        "operating_expenses": 3500000,
+        "tax_to_revenue_ratio": 0.18,
+        "expense_to_sales_ratio": 0.69999999999986,
+        "tax_efficiency": 0.71999712001152,
+        "growth_consistency": 0.03,
+        "profit_to_tax_ratio": 1.388881172882373,
+        "debt_to_profit": 1.7999928000288001,
+        "risk_level": 1,
+        "confidence_score": 0.7,
+        "risk_category": "Medium Risk",
+        "key_findings": [
+          "The Profit-to-Tax Ratio is high at 1.39, indicating potential tax evasion strategies.",
+          "The Debt Ratio is relatively high at 45.00%, suggesting financial leverage that could be used for tax avoidance.",
+          "The Expense-to-Sales Ratio is high at 70.00%, which may indicate aggressive cost management to reduce taxable income."
+        ],
+        "red_flags": [
+          "High Profit-to-Tax Ratio",
+          "High Debt Ratio"
+        ],
+        "reasoning": "ABC Manufacturing Co exhibits several concerning financial indicators that raise suspicion of potential tax evasion. The high Profit-to-Tax Ratio of 1.39 suggests that the company may be artificially inflating profits to reduce tax obligations. Additionally, the relatively high Debt Ratio of 45.00% could indicate a strategy to increase interest deductions for tax benefits. The high Expense-to-Sales Ratio of 70.00% further supports the possibility of aggressive cost management to lower taxable income. While these indicators do not conclusively prove tax evasion, they warrant closer monitoring and investigation.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The Tax-to-Revenue Ratio of 18.00% falls within the typical range (15-25%) and does not raise immediate concerns.",
+          "profit_margin": "The Profit Margin of 25.00% is healthy and does not indicate direct tax evasion.",
+          "revenue_vs_employee_growth": "The Revenue Growth of 15.00% aligns reasonably well with the Employee Growth of 12.00%, suggesting a healthy correlation.",
+          "debt_ratio": "The Debt Ratio of 45.00% is relatively high but not extreme, indicating a moderate level of financial leverage.",
+          "operating_expenses": "The Operating Expenses of $3,500,000.00 are in line with the company's sales revenue and do not show clear signs of tax evasion."
+        },
+        "analysis_timestamp": "2026-02-07T08:15:41.336726",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T08:17:16.964762"
+      },
+      {
+        "Unnamed: 0": 1,
+        "company_name": "XYZ Tech Solutions",
+        "sales": 12000000,
+        "revenue_growth": 0.35,
+        "profit_margin": 0.42,
+        "employee_growth": 0.3,
+        "debt_ratio": 0.25,
+        "operating_expenses": 6500000,
+        "tax_to_revenue_ratio": 0.06,
+        "expense_to_sales_ratio": 0.5416666666666216,
+        "tax_efficiency": 0.1428568027218983,
+        "growth_consistency": 0.04999999999999999,
+        "profit_to_tax_ratio": 6.999883335277746,
+        "debt_to_profit": 0.5952366780079096,
+        "risk_level": 2,
+        "confidence_score": 0.7,
+        "risk_category": "High Risk",
+        "key_findings": [
+          "The Tax-to-Revenue Ratio is significantly lower than the industry norm (6.00% vs 15-25%)",
+          "The Profit Margin is high at 42.00%, which could indicate potential profit manipulation",
+          "There is a notable gap between Revenue Growth (35.00%) and Employee Growth (30.00%)"
+        ],
+        "red_flags": [
+          "Low Tax-to-Revenue Ratio",
+          "High Profit Margin"
+        ],
+        "reasoning": "XYZ Tech Solutions exhibits some concerning financial patterns that raise potential tax evasion risks. The Tax-to-Revenue Ratio of 6.00% is well below the industry norm of 15-25%, indicating a possible underreporting of taxable income. Additionally, the high Profit Margin of 42.00% could suggest aggressive profit manipulation strategies to reduce taxable income. The significant gap between Revenue Growth and Employee Growth further raises suspicions of inconsistent reporting practices. While these findings do not conclusively prove tax evasion, they warrant closer monitoring and investigation.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The low Tax-to-Revenue Ratio of 6.00% indicates a potential risk of underreporting taxable income.",
+          "profit_margin": "The high Profit Margin of 42.00% raises concerns about profit manipulation to reduce tax obligations.",
+          "revenue_vs_employee_growth": "The gap between Revenue Growth (35.00%) and Employee Growth (30.00%) suggests inconsistencies in reporting or potential manipulation of financial data.",
+          "debt_ratio": "The Debt Ratio of 25.00% is within reasonable limits and does not indicate immediate risk.",
+          "operating_expenses": "The Operating Expenses of $6,500,000.00 seem proportionate to Sales and do not raise immediate red flags."
+        },
+        "analysis_timestamp": "2026-02-07T08:15:53.372893",
+        "needs_manual_review": false,
+        "rule_based_validation": {
+          "rules_triggered": [
+            "High profit/low tax rule triggered"
+          ],
+          "validation_passed": true
+        },
+        "saved_at": "2026-02-07T08:17:16.964762"
+      },
+      {
+        "Unnamed: 0": 2,
+        "company_name": "Green Energy Ltd",
+        "sales": 8500000,
+        "revenue_growth": 0.22,
+        "profit_margin": 0.28,
+        "employee_growth": 0.18,
+        "debt_ratio": 0.55,
+        "operating_expenses": 5800000,
+        "tax_to_revenue_ratio": 0.2,
+        "expense_to_sales_ratio": 0.6823529411763903,
+        "tax_efficiency": 0.7142831632744169,
+        "growth_consistency": 0.04000000000000001,
+        "profit_to_tax_ratio": 1.3999930000349998,
+        "debt_to_profit": 1.9642786990046466,
+        "risk_level": 1,
+        "confidence_score": 0.7,
+        "risk_category": "Medium Risk",
+        "key_findings": [
+          "The profit margin of 28.00% is higher than the tax-to-revenue ratio of 20.00%, indicating potential tax evasion.",
+          "The debt ratio of 55.00% is relatively high and could lead to financial strain in the future.",
+          "The growth consistency gap of 4.00% suggests a discrepancy between revenue growth and employee growth."
+        ],
+        "red_flags": [
+          "Higher profit margin compared to tax-to-revenue ratio",
+          "Significant debt ratio of 55.00%"
+        ],
+        "reasoning": "Green Energy Ltd shows some concerning patterns that raise the risk of potential tax evasion. The company's profit margin of 28.00% is notably higher than the tax-to-revenue ratio of 20.00%, which could indicate aggressive tax planning strategies. Additionally, the relatively high debt ratio of 55.00% raises concerns about the company's financial stability and potential tax avoidance through leveraging. The discrepancy between revenue growth and employee growth further suggests inconsistencies in the company's operations, warranting closer monitoring for tax compliance.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio of 20.00% falls within the typical range (15-25%), indicating a relatively normal tax contribution.",
+          "profit_margin": "The profit margin of 28.00% is higher than industry averages and the tax-to-revenue ratio, suggesting potential profit manipulation to reduce tax liabilities.",
+          "revenue_vs_employee_growth": "The 18.00% employee growth lags slightly behind the 22.00% revenue growth, indicating a potential efficiency issue or misalignment in resource allocation.",
+          "debt_ratio": "The debt ratio of 55.00% is relatively high, indicating a significant portion of the company's assets are financed through debt, which could lead to financial risks and tax planning strategies.",
+          "operating_expenses": "The operating expenses of $5,800,000.00 are high compared to sales, resulting in an expense-to-sales ratio of 68.24%, which may indicate inefficiencies or excessive spending."
+        },
+        "analysis_timestamp": "2026-02-07T08:15:58.697892",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T08:17:16.964762"
+      },
+      {
+        "Unnamed: 0": 3,
+        "company_name": "FastFood Chains Inc",
+        "sales": 3200000,
+        "revenue_growth": 0.08,
+        "profit_margin": 0.15,
+        "employee_growth": 0.05,
+        "debt_ratio": 0.65,
+        "operating_expenses": 2800000,
+        "tax_to_revenue_ratio": 0.14,
+        "expense_to_sales_ratio": 0.8749999999997267,
+        "tax_efficiency": 0.9333271111525925,
+        "growth_consistency": 0.03,
+        "profit_to_tax_ratio": 1.0714209184220111,
+        "debt_to_profit": 4.333304444637036,
+        "risk_level": 1,
+        "confidence_score": 0.7,
+        "risk_category": "Medium Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio is slightly below the industry norm of 15-25% at 14.00%",
+          "The profit margin of 15.00% is reasonable but the profit-to-tax ratio is high at 1.07",
+          "There is a 3.00% gap between revenue growth and employee growth"
+        ],
+        "red_flags": [
+          "High profit-to-tax ratio",
+          "Inconsistent revenue and employee growth"
+        ],
+        "reasoning": "FastFood Chains Inc shows some concerning patterns that indicate a medium risk of tax evasion. While the tax-to-revenue ratio is close to the industry norm, the high profit-to-tax ratio and the inconsistency between revenue and employee growth raise red flags. The company might be optimizing profits by potentially underreporting taxes and not aligning employee growth with revenue growth.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio is slightly below the industry norm, indicating a moderate risk of tax evasion.",
+          "profit_margin": "The profit margin is within a reasonable range, but the high profit-to-tax ratio suggests potential tax optimization strategies.",
+          "revenue_vs_employee_growth": "The 3.00% gap between revenue growth and employee growth indicates a lack of correlation, which could be a red flag for tax evasion.",
+          "debt_ratio": "The high debt ratio of 65.00% may indicate financial leverage but does not directly point to tax evasion.",
+          "operating_expenses": "The operating expenses are high compared to sales, which could be a normal business practice or a potential indicator of tax evasion through inflated expenses."
+        },
+        "analysis_timestamp": "2026-02-07T08:16:03.612267",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T08:17:16.964762"
+      },
+      {
+        "Unnamed: 0": 4,
+        "company_name": "CloudNet Services",
+        "sales": 15000000,
+        "revenue_growth": 0.45,
+        "profit_margin": 0.38,
+        "employee_growth": 0.35,
+        "debt_ratio": 0.15,
+        "operating_expenses": 8200000,
+        "tax_to_revenue_ratio": 0.08,
+        "expense_to_sales_ratio": 0.5466666666666302,
+        "tax_efficiency": 0.21052576177431115,
+        "growth_consistency": 0.10000000000000003,
+        "profit_to_tax_ratio": 4.749940625742178,
+        "debt_to_profit": 0.39473580332683333,
+        "risk_level": 1,
+        "confidence_score": 0.7,
+        "risk_category": "Medium Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio is significantly lower than the industry norm at 8.00%.",
+          "The profit margin of 38.00% is high compared to the tax-to-revenue ratio of 8.00%.",
+          "There is a notable gap of 10.00% between revenue growth (45.00%) and employee growth (35.00%)."
+        ],
+        "red_flags": [
+          "Low tax-to-revenue ratio compared to industry norms",
+          "Inconsistency between profit margin and tax-to-revenue ratio"
+        ],
+        "reasoning": "CloudNet Services exhibits several concerning patterns that raise the risk of potential tax evasion. The low tax-to-revenue ratio of 8.00% is well below the typical range of 15-25%, indicating a possible underreporting of taxable income. Additionally, the high profit margin of 38.00% suggests that the company may be retaining a significant portion of profits without reflecting them in tax payments. The gap of 10.00% between revenue growth and employee growth raises suspicion of potential manipulation to inflate revenues without proportional increases in workforce. These inconsistencies and anomalies warrant further monitoring and investigation.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio of 8.00% is significantly below the industry norm, indicating potential tax evasion.",
+          "profit_margin": "The high profit margin of 38.00% raises concerns about profit retention and possible tax evasion.",
+          "revenue_vs_employee_growth": "The gap of 10.00% between revenue growth and employee growth suggests a potential discrepancy in reported figures.",
+          "debt_ratio": "The debt ratio of 15.00% is within a reasonable range and does not indicate immediate risk.",
+          "operating_expenses": "The operating expenses of $8,200,000.00 seem proportionate to the sales revenue."
+        },
+        "analysis_timestamp": "2026-02-07T08:16:10.144716",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T08:17:16.964762"
+      },
+      {
+        "Unnamed: 0": 5,
+        "company_name": "Premium Retail Co",
+        "sales": 6700000,
+        "revenue_growth": 0.18,
+        "profit_margin": 0.22,
+        "employee_growth": 0.15,
+        "debt_ratio": 0.48,
+        "operating_expenses": 4900000,
+        "tax_to_revenue_ratio": 0.17,
+        "expense_to_sales_ratio": 0.7313432835819804,
+        "tax_efficiency": 0.7727237603465439,
+        "growth_consistency": 0.03,
+        "profit_to_tax_ratio": 1.294110034646855,
+        "debt_to_profit": 2.1818082645078887,
+        "risk_level": 0,
+        "confidence_score": 0.8,
+        "risk_category": "No Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio is 17.00%, within the typical range of 15-25%",
+          "The profit margin is 22.00%, indicating healthy profitability",
+          "The revenue growth of 18.00% aligns reasonably with the employee growth of 15.00%"
+        ],
+        "red_flags": [],
+        "reasoning": "Premium Retail Co shows no significant red flags for tax evasion risk based on the provided financial indicators. The tax-to-revenue ratio of 17.00% falls within the industry norm of 15-25%, suggesting appropriate tax compliance. The profit margin of 22.00% indicates a healthy level of profitability, further supported by the consistent revenue growth of 18.00% aligning well with the employee growth rate of 15.00%. Additionally, the debt ratio of 48.00% and operating expenses of $4,900,000.00 are within reasonable ranges, indicating no alarming patterns of tax evasion.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio is 17.00%, within the typical range, indicating no evasion risk",
+          "profit_margin": "The profit margin of 22.00% is healthy and does not suggest evasion",
+          "revenue_vs_employee_growth": "The correlation between revenue growth (18.00%) and employee growth (15.00%) is reasonable",
+          "debt_ratio": "The debt ratio of 48.00% is within acceptable limits",
+          "operating_expenses": "The operating expenses of $4,900,000.00 are in line with the company's revenue and do not raise concerns"
+        },
+        "analysis_timestamp": "2026-02-07T08:16:14.055189",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T08:17:16.964762"
+      },
+      {
+        "Unnamed: 0": 6,
+        "company_name": "AutoParts Direct",
+        "sales": 4500000,
+        "revenue_growth": 0.12,
+        "profit_margin": 0.19,
+        "employee_growth": 0.1,
+        "debt_ratio": 0.58,
+        "operating_expenses": 3400000,
+        "tax_to_revenue_ratio": 0.16,
+        "expense_to_sales_ratio": 0.7555555555553876,
+        "tax_efficiency": 0.8421008310482576,
+        "growth_consistency": 0.01999999999999999,
+        "profit_to_tax_ratio": 1.1874925781713863,
+        "debt_to_profit": 3.052615512549934,
+        "risk_level": 0,
+        "confidence_score": 0.8,
+        "risk_category": "No Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio is 16.00%, within the typical range of 15-25%.",
+          "The profit margin is 19.00%, indicating healthy profitability.",
+          "The revenue growth of 12.00% aligns well with the employee growth of 10.00%."
+        ],
+        "red_flags": [],
+        "reasoning": "Based on the analysis of AutoParts Direct's financial indicators, there are no significant red flags or suspicious patterns that indicate a high risk of tax evasion. The tax-to-revenue ratio falls within the industry norm, the profit margin is healthy, and there is a reasonable correlation between revenue growth and employee growth. The debt ratio is high at 58.00%, but this alone is not indicative of tax evasion. Overall, the company's financial metrics suggest no immediate risk of tax evasion.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio of 16.00% is within the typical range, indicating compliance with tax obligations.",
+          "profit_margin": "The profit margin of 19.00% reflects a healthy level of profitability.",
+          "revenue_vs_employee_growth": "The correlation between revenue growth (12.00%) and employee growth (10.00%) suggests a reasonable alignment in business expansion.",
+          "debt_ratio": "The debt ratio of 58.00% is relatively high, indicating a significant portion of the company's assets are financed through debt.",
+          "operating_expenses": "The operating expenses amount to $3,400,000.00, which is in line with the company's sales revenue."
+        },
+        "analysis_timestamp": "2026-02-07T08:16:17.948810",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T08:17:16.964762"
+      },
+      {
+        "Unnamed: 0": 7,
+        "company_name": "Digital Marketing Pro",
+        "sales": 2800000,
+        "revenue_growth": 0.28,
+        "profit_margin": 0.45,
+        "employee_growth": 0.22,
+        "debt_ratio": 0.2,
+        "operating_expenses": 1400000,
+        "tax_to_revenue_ratio": 0.04,
+        "expense_to_sales_ratio": 0.4999999999998215,
+        "tax_efficiency": 0.08888869135846365,
+        "growth_consistency": 0.060000000000000026,
+        "profit_to_tax_ratio": 11.249718757031074,
+        "debt_to_profit": 0.4444434567923183,
+        "risk_level": 2,
+        "confidence_score": 0.8,
+        "risk_category": "High Risk",
+        "key_findings": [
+          "Tax-to-Revenue ratio of 4.00% is significantly lower than the industry norm of 15-25%",
+          "Profit Margin of 45.00% is high compared to the low Tax-to-Revenue ratio",
+          "Growth Consistency Gap of 6.00% indicates potential inconsistencies between revenue and employee growth"
+        ],
+        "red_flags": [
+          "Low Tax-to-Revenue ratio",
+          "High Profit Margin with low Tax-to-Revenue ratio"
+        ],
+        "reasoning": "Digital Marketing Pro exhibits multiple red flags indicating a high risk of tax evasion. The Tax-to-Revenue ratio of 4.00% is well below the industry norm of 15-25%, suggesting potential underreporting of revenue or tax evasion. The high Profit Margin of 45.00% combined with the low Tax-to-Revenue ratio raises concerns about profit manipulation to reduce tax obligations. Additionally, the Growth Consistency Gap of 6.00% indicates a discrepancy between revenue growth and employee growth, which could be a sign of irregularities in reporting. These factors collectively point towards a high risk of tax evasion.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The Tax-to-Revenue ratio of 4.00% is significantly lower than industry norms, indicating potential tax evasion.",
+          "profit_margin": "The Profit Margin of 45.00% is high, especially when compared to the low Tax-to-Revenue ratio, suggesting profit manipulation.",
+          "revenue_vs_employee_growth": "The 22.00% Employee Growth is lower than the Revenue Growth of 28.00%, leading to a Growth Consistency Gap of 6.00% which raises concerns about reporting accuracy.",
+          "debt_ratio": "The Debt Ratio of 20.00% is within reasonable limits and does not raise immediate red flags.",
+          "operating_expenses": "The Operating Expenses of $1,400,000.00 seem proportionate to the Sales revenue."
+        },
+        "analysis_timestamp": "2026-02-07T08:16:21.719433",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T08:17:16.964762"
+      },
+      {
+        "Unnamed: 0": 8,
+        "company_name": "HealthCare Supplies",
+        "sales": 9200000,
+        "revenue_growth": 0.2,
+        "profit_margin": 0.26,
+        "employee_growth": 0.17,
+        "debt_ratio": 0.42,
+        "operating_expenses": 6500000,
+        "tax_to_revenue_ratio": 0.19,
+        "expense_to_sales_ratio": 0.706521739130358,
+        "tax_efficiency": 0.7307664201291534,
+        "growth_consistency": 0.03,
+        "profit_to_tax_ratio": 1.3684138504534187,
+        "debt_to_profit": 1.61537840239076,
+        "risk_level": 1,
+        "confidence_score": 0.7,
+        "risk_category": "Medium Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio is within the typical range at 19.00%",
+          "The profit margin is high at 26.00%, which could indicate aggressive tax planning",
+          "There is a gap of 3.00% between revenue growth and employee growth, suggesting potential efficiency issues"
+        ],
+        "red_flags": [
+          "High profit margin compared to tax-to-revenue ratio",
+          "Inconsistency between revenue growth and employee growth"
+        ],
+        "reasoning": "HealthCare Supplies shows some concerning patterns that warrant monitoring for potential tax evasion risks. While the tax-to-revenue ratio is within the typical range, the high profit margin of 26.00% raises a red flag as it could indicate aggressive tax planning strategies. Additionally, the gap of 3.00% between revenue growth and employee growth suggests potential efficiency issues or misreporting. These inconsistencies and high-profit margins indicate a medium risk of tax evasion.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio of 19.00% falls within the typical range, indicating no immediate red flag.",
+          "profit_margin": "The high profit margin of 26.00% is above industry norms and could be a potential indicator of tax evasion.",
+          "revenue_vs_employee_growth": "The 3.00% gap between revenue growth and employee growth suggests potential efficiency issues or misreporting.",
+          "debt_ratio": "The debt ratio of 42.00% is relatively high but does not directly indicate tax evasion.",
+          "operating_expenses": "The operating expenses are $6,500,000.00, which seems reasonable based on the sales revenue."
+        },
+        "analysis_timestamp": "2026-02-07T08:16:25.451238",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T08:17:16.964762"
+      },
+      {
+        "Unnamed: 0": 9,
+        "company_name": "FinTech Innovations",
+        "sales": 18000000,
+        "revenue_growth": 0.52,
+        "profit_margin": 0.48,
+        "employee_growth": 0.4,
+        "debt_ratio": 0.12,
+        "operating_expenses": 8500000,
+        "tax_to_revenue_ratio": 0.05,
+        "expense_to_sales_ratio": 0.472222222222196,
+        "tax_efficiency": 0.10416644965322991,
+        "growth_consistency": 0.12,
+        "profit_to_tax_ratio": 9.599808003839922,
+        "debt_to_profit": 0.24999947916775175,
+        "risk_level": 2,
+        "confidence_score": 0.7,
+        "risk_category": "High Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio of 5.00% is significantly lower than the industry norm of 15-25%",
+          "The profit margin of 48.00% is unusually high compared to the low tax-to-revenue ratio",
+          "There is a gap of 12.00% between revenue growth and employee growth, indicating potential inconsistencies"
+        ],
+        "red_flags": [
+          "Low tax-to-revenue ratio",
+          "High profit margin with low tax payment"
+        ],
+        "reasoning": "FinTech Innovations shows concerning patterns that raise suspicion of tax evasion. The tax-to-revenue ratio of 5.00% is well below the industry norm of 15-25%, suggesting possible underreporting of income. Additionally, the high profit margin of 48.00% combined with the low tax payment raises red flags as it indicates potential profit manipulation to reduce tax obligations. The gap of 12.00% between revenue growth and employee growth further adds to the inconsistency in financial performance, warranting closer monitoring for potential tax evasion.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio of 5.00% is significantly lower than industry norms, indicating potential tax evasion.",
+          "profit_margin": "The profit margin of 48.00% is unusually high, especially when compared to the low tax payment, suggesting profit manipulation.",
+          "revenue_vs_employee_growth": "The gap of 12.00% between revenue growth and employee growth raises concerns about the consistency of growth strategies.",
+          "debt_ratio": "The debt ratio of 12.00% is within reasonable limits and does not indicate immediate risk.",
+          "operating_expenses": "The operating expenses of $8,500,000.00 seem proportionate to the sales revenue and do not raise immediate red flags."
+        },
+        "analysis_timestamp": "2026-02-07T08:16:28.961044",
+        "needs_manual_review": false,
+        "rule_based_validation": {
+          "rules_triggered": [
+            "High profit/low tax rule triggered"
+          ],
+          "validation_passed": true
+        },
+        "saved_at": "2026-02-07T08:17:16.964762"
+      },
+      {
+        "Unnamed: 0": 10,
+        "company_name": "Construction Plus",
+        "sales": 7300000,
+        "revenue_growth": 0.14,
+        "profit_margin": 0.21,
+        "employee_growth": 0.11,
+        "debt_ratio": 0.72,
+        "operating_expenses": 5600000,
+        "tax_to_revenue_ratio": 0.15,
+        "expense_to_sales_ratio": 0.7671232876711278,
+        "tax_efficiency": 0.7142823129413669,
+        "growth_consistency": 0.030000000000000013,
+        "profit_to_tax_ratio": 1.3999906667288884,
+        "debt_to_profit": 3.4285551021185614,
+        "risk_level": 1,
+        "confidence_score": 0.7,
+        "risk_category": "Medium Risk",
+        "key_findings": [
+          "The Profit Margin of 21.00% is slightly higher than the industry average, which could indicate potential profit manipulation.",
+          "The Debt Ratio of 72.00% is significantly higher than typical levels, suggesting potential financial distress or aggressive tax planning.",
+          "The Tax Efficiency of 0.7143 is relatively low, indicating potential tax planning strategies."
+        ],
+        "red_flags": [
+          "High Debt Ratio of 72.00%",
+          "Low Tax Efficiency of 0.7143"
+        ],
+        "reasoning": "Construction Plus exhibits some concerning financial patterns that raise the risk of tax evasion. The Profit Margin exceeding the industry average, along with a high Debt Ratio and low Tax Efficiency, suggest potential profit manipulation and aggressive tax planning strategies. The company's financial indicators indicate a need for closer monitoring to ensure compliance with tax regulations.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The Tax-to-Revenue Ratio of 15.00% falls within the typical range, indicating no immediate red flag.",
+          "profit_margin": "The Profit Margin of 21.00% is slightly higher than industry norms, suggesting potential profit manipulation.",
+          "revenue_vs_employee_growth": "The Revenue Growth of 14.00% is slightly higher than the Employee Growth of 11.00%, indicating a moderate misalignment.",
+          "debt_ratio": "The Debt Ratio of 72.00% is significantly higher than typical levels, indicating potential financial distress or aggressive tax planning.",
+          "operating_expenses": "The Operating Expenses of $5,600,000.00 seem reasonable compared to Sales, indicating no immediate concerns."
+        },
+        "analysis_timestamp": "2026-02-07T08:16:33.207326",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T08:17:16.964762"
+      },
+      {
+        "Unnamed: 0": 11,
+        "company_name": "EduTech Learning",
+        "sales": 5500000,
+        "revenue_growth": 0.25,
+        "profit_margin": 0.32,
+        "employee_growth": 0.2,
+        "debt_ratio": 0.28,
+        "operating_expenses": 3600000,
+        "tax_to_revenue_ratio": 0.12,
+        "expense_to_sales_ratio": 0.6545454545453355,
+        "tax_efficiency": 0.3749988281286621,
+        "growth_consistency": 0.04999999999999999,
+        "profit_to_tax_ratio": 2.666644444629628,
+        "debt_to_profit": 0.8749972656335451,
+        "risk_level": 1,
+        "confidence_score": 0.7,
+        "risk_category": "Medium Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio of 12.00% is below the industry norm of 15-25%",
+          "The profit margin of 32.00% is high compared to the tax-to-revenue ratio of 12.00%",
+          "There is a 5.00% gap between revenue growth of 25.00% and employee growth of 20.00%"
+        ],
+        "red_flags": [
+          "Low tax-to-revenue ratio",
+          "High profit margin compared to tax ratio"
+        ],
+        "reasoning": "EduTech Learning shows some concerning patterns that indicate a medium risk of tax evasion. The tax-to-revenue ratio of 12.00% is below the typical range of 15-25%, suggesting potential underreporting of income. Additionally, the high profit margin of 32.00% compared to the low tax-to-revenue ratio raises suspicions of profit manipulation to reduce tax obligations. The 5.00% gap between revenue growth and employee growth indicates a possible inconsistency in the company's reported financial performance.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio of 12.00% is below the industry norm, indicating potential tax evasion.",
+          "profit_margin": "The profit margin of 32.00% is high compared to the tax-to-revenue ratio, suggesting profit manipulation.",
+          "revenue_vs_employee_growth": "The 5.00% gap between revenue growth and employee growth raises concerns about the consistency of reported financial data.",
+          "debt_ratio": "The debt ratio of 28.00% is within a reasonable range and does not raise immediate red flags.",
+          "operating_expenses": "The operating expenses of $3,600,000.00 seem reasonable relative to sales and do not indicate evasion on their own."
+        },
+        "analysis_timestamp": "2026-02-07T08:16:37.612461",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T08:17:16.964762"
+      },
+      {
+        "Unnamed: 0": 12,
+        "company_name": "Fashion Boutique",
+        "sales": 3900000,
+        "revenue_growth": 0.1,
+        "profit_margin": 0.18,
+        "employee_growth": 0.08,
+        "debt_ratio": 0.55,
+        "operating_expenses": 3100000,
+        "tax_to_revenue_ratio": 0.16,
+        "expense_to_sales_ratio": 0.7948717948715911,
+        "tax_efficiency": 0.8888839506447187,
+        "growth_consistency": 0.020000000000000004,
+        "profit_to_tax_ratio": 1.124992968793945,
+        "debt_to_profit": 3.0555385803412207,
+        "risk_level": 1,
+        "confidence_score": 0.7,
+        "risk_category": "Medium Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio of 16.00% is within the typical range (15-25%)",
+          "The profit margin of 18.00% is reasonable but the profit-to-tax ratio of 1.12 is slightly low",
+          "The debt ratio of 55.00% is high and the debt-to-profit ratio of 3.06 is concerning"
+        ],
+        "red_flags": [
+          "High debt ratio and debt-to-profit ratio indicate potential financial strain",
+          "Slightly low profit-to-tax ratio raises questions about tax efficiency"
+        ],
+        "reasoning": "Fashion Boutique shows some concerning patterns that warrant monitoring for potential tax evasion risks. While the tax-to-revenue ratio falls within the typical range, the high debt ratio and debt-to-profit ratio suggest financial strain, which could lead to tax evasion motives. Additionally, the slightly low profit-to-tax ratio indicates potential tax efficiency issues. These factors combined indicate a medium risk of tax evasion.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio is within the typical range, indicating no immediate red flag.",
+          "profit_margin": "The profit margin is reasonable, but the low profit-to-tax ratio raises concerns about tax efficiency.",
+          "revenue_vs_employee_growth": "The revenue growth of 10.00% aligns well with the employee growth of 8.00%, showing a reasonable correlation.",
+          "debt_ratio": "The high debt ratio of 55.00% is a red flag for potential financial strain and tax evasion risk.",
+          "operating_expenses": "The operating expenses are high relative to sales, with an expense-to-sales ratio of 79.49%, indicating potential inefficiencies."
+        },
+        "analysis_timestamp": "2026-02-07T08:16:43.965339",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T08:17:16.964762"
+      },
+      {
+        "Unnamed: 0": 13,
+        "company_name": "Data Analytics Corp",
+        "sales": 11000000,
+        "revenue_growth": 0.38,
+        "profit_margin": 0.4,
+        "employee_growth": 0.32,
+        "debt_ratio": 0.18,
+        "operating_expenses": 6200000,
+        "tax_to_revenue_ratio": 0.07,
+        "expense_to_sales_ratio": 0.5636363636363124,
+        "tax_efficiency": 0.17499956250109377,
+        "growth_consistency": 0.06,
+        "profit_to_tax_ratio": 5.714204082798817,
+        "debt_to_profit": 0.4499988750028125,
+        "risk_level": 1,
+        "confidence_score": 0.7,
+        "risk_category": "Medium Risk",
+        "key_findings": [
+          "The Tax-to-Revenue Ratio is significantly lower than the industry norm (7.00% vs 15-25%)",
+          "The Profit-to-Tax Ratio is unusually low at 5.71, indicating potential tax underpayment",
+          "There is a notable gap of 6.00% between Revenue Growth and Employee Growth"
+        ],
+        "red_flags": [
+          "Low Tax-to-Revenue Ratio",
+          "Low Profit-to-Tax Ratio"
+        ],
+        "reasoning": "Data Analytics Corp exhibits several concerning patterns that raise the risk of tax evasion. The company's Tax-to-Revenue Ratio of 7.00% is well below the industry norm of 15-25%, suggesting possible underreporting of taxable income. Additionally, the Profit-to-Tax Ratio of 5.71 is unusually low, indicating potential manipulation of profits to reduce tax obligations. The significant gap of 6.00% between Revenue Growth and Employee Growth raises suspicion of inconsistent reporting or potential tax evasion strategies. While these findings do not conclusively prove tax evasion, they warrant further investigation and monitoring.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The Tax-to-Revenue Ratio of 7.00% is below the typical range, indicating potential tax evasion.",
+          "profit_margin": "The Profit Margin of 40.00% is healthy and does not directly indicate tax evasion.",
+          "revenue_vs_employee_growth": "The gap of 6.00% between Revenue Growth and Employee Growth suggests inconsistencies that may raise tax evasion concerns.",
+          "debt_ratio": "The Debt Ratio of 18.00% is reasonable and does not indicate immediate tax evasion risk.",
+          "operating_expenses": "The Operating Expenses of $6,200,000.00 are in line with the Sales revenue and do not raise specific tax evasion concerns."
+        },
+        "analysis_timestamp": "2026-02-07T08:16:47.370765",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T08:17:16.964762"
+      },
+      {
+        "Unnamed: 0": 14,
+        "company_name": "Pharma Research Ltd",
+        "sales": 13500000,
+        "revenue_growth": 0.3,
+        "profit_margin": 0.35,
+        "employee_growth": 0.25,
+        "debt_ratio": 0.35,
+        "operating_expenses": 8900000,
+        "tax_to_revenue_ratio": 0.22,
+        "expense_to_sales_ratio": 0.6592592592592104,
+        "tax_efficiency": 0.6285696326581925,
+        "growth_consistency": 0.04999999999999999,
+        "profit_to_tax_ratio": 1.590901859537002,
+        "debt_to_profit": 0.9999971428653062,
+        "risk_level": 0,
+        "confidence_score": 0.8,
+        "risk_category": "No Risk",
+        "key_findings": [
+          "Tax-to-Revenue Ratio within industry norms at 22.00%",
+          "Profit Margin at a healthy 35.00%",
+          "Reasonable correlation between Revenue Growth (30.00%) and Employee Growth (25.00%)"
+        ],
+        "red_flags": [],
+        "reasoning": "Pharma Research Ltd shows no significant red flags for tax evasion risk based on the provided financial indicators. The Tax-to-Revenue Ratio of 22.00% falls within the typical industry range of 15-25%, indicating appropriate tax compliance. The Profit Margin of 35.00% is healthy, suggesting efficient operations. The correlation between Revenue Growth (30.00%) and Employee Growth (25.00%) indicates a reasonable scaling of resources. Debt Ratio of 35.00% and Operating Expenses of $8,900,000.00 are also within acceptable limits.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The Tax-to-Revenue Ratio is 22.00%, within the industry norm of 15-25%",
+          "profit_margin": "The Profit Margin is 35.00%, indicating healthy profitability",
+          "revenue_vs_employee_growth": "Reasonable correlation between Revenue Growth and Employee Growth",
+          "debt_ratio": "Debt Ratio at 35.00% is within acceptable levels",
+          "operating_expenses": "Operating Expenses of $8,900,000.00 are reasonable compared to Sales"
+        },
+        "analysis_timestamp": "2026-02-07T08:16:55.407261",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T08:17:16.964762"
+      },
+      {
+        "Unnamed: 0": 15,
+        "company_name": "Transport Logistics",
+        "sales": 6100000,
+        "revenue_growth": 0.16,
+        "profit_margin": 0.2,
+        "employee_growth": 0.13,
+        "debt_ratio": 0.68,
+        "operating_expenses": 4700000,
+        "tax_to_revenue_ratio": 0.17,
+        "expense_to_sales_ratio": 0.7704918032785621,
+        "tax_efficiency": 0.8499957500212499,
+        "growth_consistency": 0.03,
+        "profit_to_tax_ratio": 1.1764636678607772,
+        "debt_to_profit": 3.3999830000849998,
+        "risk_level": 0,
+        "confidence_score": 0.8,
+        "risk_category": "No Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio is 17.00%, within the typical range of 15-25%",
+          "The profit margin is 20.00%, indicating healthy profitability",
+          "The revenue growth of 16.00% aligns reasonably with the employee growth of 13.00%"
+        ],
+        "red_flags": [],
+        "reasoning": "Transport Logistics shows no significant red flags for tax evasion risk. The tax-to-revenue ratio falls within the industry norm, the profit margin is healthy, and the revenue growth correlates well with employee growth. The debt ratio is high at 68.00%, but this alone is not indicative of tax evasion. Overall, the financial indicators suggest a low risk of tax evasion.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio is 17.00%, within the typical range of 15-25%",
+          "profit_margin": "The profit margin of 20.00% indicates healthy profitability",
+          "revenue_vs_employee_growth": "The revenue growth of 16.00% aligns reasonably with the employee growth of 13.00%",
+          "debt_ratio": "The debt ratio of 68.00% is high but not uncommon in certain industries",
+          "operating_expenses": "The operating expenses are $4,700,000.00, which is in line with the sales revenue"
+        },
+        "analysis_timestamp": "2026-02-07T08:16:59.419770",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T08:17:16.964762"
+      },
+      {
+        "Unnamed: 0": 16,
+        "company_name": "Coffee Chain Stores",
+        "sales": 4200000,
+        "revenue_growth": 0.09,
+        "profit_margin": 0.16,
+        "employee_growth": 0.06,
+        "debt_ratio": 0.62,
+        "operating_expenses": 3500000,
+        "tax_to_revenue_ratio": 0.15,
+        "expense_to_sales_ratio": 0.8333333333331349,
+        "tax_efficiency": 0.9374941406616208,
+        "growth_consistency": 0.03,
+        "profit_to_tax_ratio": 1.0666595556029628,
+        "debt_to_profit": 3.874975781401366,
+        "risk_level": 1,
+        "confidence_score": 0.7,
+        "risk_category": "Medium Risk",
+        "key_findings": [
+          "The Profit Margin of 16.00% is slightly below the industry average, which could indicate potential tax evasion strategies.",
+          "The Debt Ratio of 62.00% is relatively high, suggesting a higher financial risk and potential tax optimization strategies.",
+          "The Debt-to-Profit ratio of 3.88 is significantly higher than usual, indicating a heavy reliance on debt financing."
+        ],
+        "red_flags": [
+          "High Debt Ratio of 62.00%",
+          "Low Profit Margin of 16.00%"
+        ],
+        "reasoning": "Coffee Chain Stores exhibits some concerning financial patterns that raise the risk of tax evasion. The Profit Margin of 16.00% is slightly below the industry average, which could indicate potential profit manipulation to reduce tax liabilities. The Debt Ratio of 62.00% is relatively high, suggesting a higher financial risk and potential tax optimization strategies. Additionally, the Debt-to-Profit ratio of 3.88 is significantly higher than usual, indicating a heavy reliance on debt financing which might be used for tax avoidance purposes. While the Tax-to-Revenue Ratio is within the normal range, the combination of lower profit margins and high debt levels raises concerns.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The Tax-to-Revenue Ratio of 15.00% is within the typical range (15-25%), indicating no immediate red flag.",
+          "profit_margin": "The Profit Margin of 16.00% is slightly below the industry average, suggesting potential profit manipulation for tax purposes.",
+          "revenue_vs_employee_growth": "The Revenue Growth of 9.00% is higher than the Employee Growth of 6.00%, indicating a slight inconsistency in resource utilization.",
+          "debt_ratio": "The Debt Ratio of 62.00% is relatively high, indicating a higher financial risk and potential tax optimization strategies.",
+          "operating_expenses": "The Expense-to-Sales Ratio of 83.33% is high, indicating that a significant portion of revenue is used to cover operating expenses."
+        },
+        "analysis_timestamp": "2026-02-07T08:17:04.643958",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T08:17:16.964762"
+      },
+      {
+        "Unnamed: 0": 17,
+        "company_name": "AI Robotics Inc",
+        "sales": 16500000,
+        "revenue_growth": 0.48,
+        "profit_margin": 0.46,
+        "employee_growth": 0.38,
+        "debt_ratio": 0.1,
+        "operating_expenses": 8800000,
+        "tax_to_revenue_ratio": 0.06,
+        "expense_to_sales_ratio": 0.533333333333301,
+        "tax_efficiency": 0.13043449905543683,
+        "growth_consistency": 0.09999999999999998,
+        "profit_to_tax_ratio": 7.666538891018483,
+        "debt_to_profit": 0.2173908317590614,
+        "risk_level": 2,
+        "confidence_score": 0.7,
+        "risk_category": "High Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio of 6.00% is significantly lower than the industry norm of 15-25%",
+          "The profit margin of 46.00% is high compared to the low tax-to-revenue ratio of 6.00%",
+          "There is a gap of 10.00% between revenue growth of 48.00% and employee growth of 38.00%"
+        ],
+        "red_flags": [
+          "Low tax-to-revenue ratio",
+          "High profit margin compared to tax payments"
+        ],
+        "reasoning": "AI Robotics Inc shows concerning patterns that indicate a medium risk of tax evasion. The low tax-to-revenue ratio of 6.00% is well below the industry norm, suggesting potential tax underreporting. The high profit margin of 46.00% is inconsistent with the low tax payments, indicating a possible manipulation of profits to evade taxes. Additionally, the gap between revenue growth and employee growth raises suspicion of inflated revenues without proportional increase in workforce. While these findings are concerning, further investigation is needed to confirm tax evasion.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio of 6.00% is significantly below the industry norm, indicating potential tax evasion.",
+          "profit_margin": "The high profit margin of 46.00% raises concerns when compared to the low tax payments, suggesting profit manipulation.",
+          "revenue_vs_employee_growth": "The gap of 10.00% between revenue growth and employee growth indicates a potential mismatch in reported figures.",
+          "debt_ratio": "The debt ratio of 10.00% is low, which is generally positive and does not raise immediate red flags.",
+          "operating_expenses": "The operating expenses of $8,800,000.00 seem reasonable relative to sales and do not indicate immediate issues."
+        },
+        "analysis_timestamp": "2026-02-07T08:17:09.147494",
+        "needs_manual_review": false,
+        "rule_based_validation": {
+          "rules_triggered": [
+            "High profit/low tax rule triggered"
+          ],
+          "validation_passed": true
+        },
+        "saved_at": "2026-02-07T08:17:16.964762"
+      },
+      {
+        "Unnamed: 0": 18,
+        "company_name": "Home Decor Emporium",
+        "sales": 5800000,
+        "revenue_growth": 0.19,
+        "profit_margin": 0.24,
+        "employee_growth": 0.16,
+        "debt_ratio": 0.5,
+        "operating_expenses": 4200000,
+        "tax_to_revenue_ratio": 0.18,
+        "expense_to_sales_ratio": 0.7241379310343579,
+        "tax_efficiency": 0.7499968750130208,
+        "growth_consistency": 0.03,
+        "profit_to_tax_ratio": 1.333325925967078,
+        "debt_to_profit": 2.0833246528139466,
+        "risk_level": 0,
+        "confidence_score": 0.8,
+        "risk_category": "No Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio is 18.00%, within the typical range of 15-25%",
+          "The profit margin is 24.00%, indicating healthy profitability",
+          "The revenue growth of 19.00% aligns well with the employee growth of 16.00%"
+        ],
+        "red_flags": [],
+        "reasoning": "Based on the analysis of Home Decor Emporium's financial indicators, there are no significant red flags or suspicious patterns that indicate a high risk of tax evasion. The tax-to-revenue ratio falls within the industry norm of 15-25%, the profit margin is healthy at 24.00%, and the revenue growth correlates reasonably with employee growth. Additionally, the debt ratio of 50.00% and operating expenses are within acceptable ranges. Overall, the company's financial metrics suggest responsible financial management and compliance with tax obligations.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio of 18.00% is within the typical range, indicating compliance with tax obligations.",
+          "profit_margin": "The profit margin of 24.00% reflects healthy profitability, reducing the likelihood of tax evasion.",
+          "revenue_vs_employee_growth": "The alignment between revenue growth (19.00%) and employee growth (16.00%) suggests effective management of resources.",
+          "debt_ratio": "The debt ratio of 50.00% is within reasonable limits, indicating a balanced approach to financing.",
+          "operating_expenses": "The operating expenses of $4,200,000.00 are in line with the company's sales revenue, indicating efficient cost management."
+        },
+        "analysis_timestamp": "2026-02-07T08:17:12.629671",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T08:17:16.964762"
+      },
+      {
+        "Unnamed: 0": 19,
+        "company_name": "Gaming Studios Pro",
+        "sales": 9800000,
+        "revenue_growth": 0.42,
+        "profit_margin": 0.44,
+        "employee_growth": 0.35,
+        "debt_ratio": 0.22,
+        "operating_expenses": 5100000,
+        "tax_to_revenue_ratio": 0.09,
+        "expense_to_sales_ratio": 0.520408163265253,
+        "tax_efficiency": 0.20454498967047802,
+        "growth_consistency": 0.07,
+        "profit_to_tax_ratio": 4.8888345685047945,
+        "debt_to_profit": 0.4999988636389463,
+        "risk_level": 2,
+        "confidence_score": 0.7,
+        "risk_category": "High Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio of 9.00% is below the industry norm of 15-25%",
+          "The profit margin of 44.00% is significantly higher than the tax-to-revenue ratio of 9.00%",
+          "There is a gap of 7.00% between revenue growth of 42.00% and employee growth of 35.00%"
+        ],
+        "red_flags": [
+          "Low tax-to-revenue ratio",
+          "Significantly high profit margin compared to tax payments"
+        ],
+        "reasoning": "Gaming Studios Pro exhibits several concerning patterns that indicate a medium risk of tax evasion. The tax-to-revenue ratio of 9.00% is notably below the industry norm of 15-25%, suggesting a potential tax underpayment. Additionally, the high profit margin of 44.00% raises suspicion as it is significantly higher than the tax-to-revenue ratio, indicating possible profit manipulation to reduce tax obligations. The gap between revenue growth and employee growth further suggests inconsistencies in financial reporting, warranting closer monitoring for potential tax evasion strategies.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio of 9.00% is below industry norms, indicating potential tax underpayment.",
+          "profit_margin": "The profit margin of 44.00% is significantly higher than the tax-to-revenue ratio, raising concerns about profit manipulation.",
+          "revenue_vs_employee_growth": "The gap of 7.00% between revenue growth and employee growth suggests inconsistencies in financial reporting.",
+          "debt_ratio": "The debt ratio of 22.00% is within reasonable limits, not indicating immediate risk.",
+          "operating_expenses": "The operating expenses of $5,100,000.00 seem reasonable relative to sales."
+        },
+        "analysis_timestamp": "2026-02-07T08:17:16.949459",
+        "needs_manual_review": false,
+        "rule_based_validation": {
+          "rules_triggered": [
+            "High profit/low tax rule triggered"
+          ],
+          "validation_passed": true
+        },
+        "saved_at": "2026-02-07T08:17:16.964762"
+      }
+    ],
+    "created_at": "2026-02-07T08:15:12.794747"
+  },
+  "Hari": {
+    "password": "b22f213ec710f0b0e86297d10279d69171f50f01a04edf40f472a563e7ad8576",
+    "role": "user",
+    "name": "Harish",
+    "analysis_results": [
+      {
+        "company_name": "TAta",
+        "risk_level": 0,
+        "confidence_score": 0.8,
+        "risk_category": "No Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio is 18.00%, within the typical range of 15-25%.",
+          "The profit margin is 20.00%, indicating healthy profitability.",
+          "The revenue growth of 15.00% aligns well with the employee growth of 12.00%."
+        ],
+        "red_flags": [],
+        "reasoning": "Based on the analysis of the financial indicators provided for TAta, there are no significant red flags or suspicious patterns indicating tax evasion. The tax-to-revenue ratio of 18.00% falls within the industry norm of 15-25%, suggesting appropriate tax compliance. The profit margin of 20.00% reflects a healthy level of profitability, and the revenue growth aligns reasonably well with the employee growth rate. The debt ratio of 50.00% may be considered high, but it does not necessarily indicate tax evasion in this context. Overall, the financial indicators do not raise major concerns regarding tax evasion risk.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio is within the typical range, indicating compliance.",
+          "profit_margin": "The profit margin is healthy, reflecting good financial performance.",
+          "revenue_vs_employee_growth": "The correlation between revenue growth and employee growth is reasonable.",
+          "debt_ratio": "The debt ratio is relatively high at 50.00%, but not a direct indicator of tax evasion.",
+          "operating_expenses": "Operating expenses are $700,000.00, which seems reasonable relative to sales."
+        },
+        "analysis_timestamp": "2026-02-07T08:18:20.727677",
+        "needs_manual_review": false,
+        "prediction_timestamp": "2026-02-07T08:18:20.727620",
+        "model_used": "gpt-3.5-turbo",
+        "saved_at": "2026-02-07T08:18:20.730917"
+      }
+    ],
+    "created_at": "2026-02-07T08:18:00.193454"
+  },
+  "jahnavi": {
+    "password": "b22f213ec710f0b0e86297d10279d69171f50f01a04edf40f472a563e7ad8576",
+    "role": "user",
+    "name": "jahnavi",
+    "analysis_results": [
+      {
+        "Unnamed: 0": 0,
+        "company_name": "ABC Manufacturing Co",
+        "sales": 5000000,
+        "revenue_growth": 0.15,
+        "profit_margin": 0.25,
+        "employee_growth": 0.12,
+        "debt_ratio": 0.45,
+        "operating_expenses": 3500000,
+        "tax_to_revenue_ratio": 0.18,
+        "expense_to_sales_ratio": 0.69999999999986,
+        "tax_efficiency": 0.71999712001152,
+        "growth_consistency": 0.03,
+        "profit_to_tax_ratio": 1.388881172882373,
+        "debt_to_profit": 1.7999928000288001,
+        "risk_level": 0,
+        "confidence_score": 0.8,
+        "risk_category": "No Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio is 18.00%, within the typical range of 15-25%",
+          "The profit margin is 25.00%, indicating healthy profitability",
+          "The revenue growth of 15.00% aligns reasonably with the employee growth of 12.00%"
+        ],
+        "red_flags": [],
+        "reasoning": "ABC Manufacturing Co shows no significant red flags for tax evasion risk based on the provided financial indicators. The tax-to-revenue ratio falls within the industry norm, profit margin is healthy, and revenue growth correlates well with employee growth. These factors suggest a low risk of tax evasion.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio of 18.00% is within the typical range, indicating compliance with tax obligations.",
+          "profit_margin": "The profit margin of 25.00% reflects a healthy level of profitability, reducing the likelihood of tax evasion.",
+          "revenue_vs_employee_growth": "The correlation between revenue growth and employee growth suggests a reasonable alignment in business expansion.",
+          "debt_ratio": "The debt ratio of 45.00% is relatively high but does not directly indicate tax evasion.",
+          "operating_expenses": "The operating expenses of $3,500,000.00 seem reasonable compared to sales, indicating efficient cost management."
+        },
+        "analysis_timestamp": "2026-02-07T10:05:10.994749",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T10:06:32.494111"
+      },
+      {
+        "Unnamed: 0": 1,
+        "company_name": "XYZ Tech Solutions",
+        "sales": 12000000,
+        "revenue_growth": 0.35,
+        "profit_margin": 0.42,
+        "employee_growth": 0.3,
+        "debt_ratio": 0.25,
+        "operating_expenses": 6500000,
+        "tax_to_revenue_ratio": 0.06,
+        "expense_to_sales_ratio": 0.5416666666666216,
+        "tax_efficiency": 0.1428568027218983,
+        "growth_consistency": 0.04999999999999999,
+        "profit_to_tax_ratio": 6.999883335277746,
+        "debt_to_profit": 0.5952366780079096,
+        "risk_level": 2,
+        "confidence_score": 0.7,
+        "risk_category": "High Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio of 6.00% is significantly lower than the industry norm of 15-25%",
+          "The profit margin of 42.00% is high compared to the low tax-to-revenue ratio of 6.00%",
+          "There is a 5.00% gap between revenue growth of 35.00% and employee growth of 30.00%"
+        ],
+        "red_flags": [
+          "Low tax-to-revenue ratio compared to industry norms",
+          "High profit margin with low tax payments"
+        ],
+        "reasoning": "XYZ Tech Solutions exhibits concerning patterns that indicate a medium risk of tax evasion. The low tax-to-revenue ratio of 6.00% is well below the typical range of 15-25%, suggesting potential tax underreporting. Additionally, the high profit margin of 42.00% does not align with the low tax payments, indicating a possible discrepancy between reported profits and tax obligations. The 5.00% gap between revenue growth and employee growth raises questions about the consistency in business operations and financial reporting.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio of 6.00% is significantly below industry norms, indicating potential tax evasion.",
+          "profit_margin": "The high profit margin of 42.00% raises concerns when coupled with the low tax payments, suggesting possible profit manipulation.",
+          "revenue_vs_employee_growth": "The 5.00% gap between revenue growth and employee growth indicates a lack of alignment in business expansion strategies.",
+          "debt_ratio": "The debt ratio of 25.00% is within reasonable limits and does not raise immediate red flags.",
+          "operating_expenses": "The operating expenses of $6,500,000.00 seem proportionate to the sales revenue and do not indicate any irregularities."
+        },
+        "analysis_timestamp": "2026-02-07T10:05:16.116279",
+        "needs_manual_review": false,
+        "rule_based_validation": {
+          "rules_triggered": [
+            "High profit/low tax rule triggered"
+          ],
+          "validation_passed": true
+        },
+        "saved_at": "2026-02-07T10:06:32.494111"
+      },
+      {
+        "Unnamed: 0": 2,
+        "company_name": "Green Energy Ltd",
+        "sales": 8500000,
+        "revenue_growth": 0.22,
+        "profit_margin": 0.28,
+        "employee_growth": 0.18,
+        "debt_ratio": 0.55,
+        "operating_expenses": 5800000,
+        "tax_to_revenue_ratio": 0.2,
+        "expense_to_sales_ratio": 0.6823529411763903,
+        "tax_efficiency": 0.7142831632744169,
+        "growth_consistency": 0.04000000000000001,
+        "profit_to_tax_ratio": 1.3999930000349998,
+        "debt_to_profit": 1.9642786990046466,
+        "risk_level": 1,
+        "confidence_score": 0.7,
+        "risk_category": "Medium Risk",
+        "key_findings": [
+          "The Profit Margin of 28.00% is higher than the Tax-to-Revenue Ratio of 20.00%, indicating a potential inconsistency in tax payments.",
+          "The Debt Ratio of 55.00% is relatively high compared to industry norms, which could lead to financial strain and potential tax evasion.",
+          "The Growth Consistency Gap of 4.00% suggests a discrepancy between Revenue Growth and Employee Growth, warranting further investigation."
+        ],
+        "red_flags": [
+          "Higher Profit Margin compared to Tax-to-Revenue Ratio",
+          "Relatively high Debt Ratio"
+        ],
+        "reasoning": "Green Energy Ltd exhibits some concerning financial patterns that raise the risk of tax evasion. The company's Profit Margin of 28.00% is notably higher than the Tax-to-Revenue Ratio of 20.00%, indicating a potential underpayment of taxes. Additionally, the Debt Ratio of 55.00% is relatively high, which could be a red flag for financial instability and potential tax evasion practices. The discrepancy between Revenue Growth and Employee Growth further suggests inconsistencies in the company's financial reporting, warranting a medium risk level assessment.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The Tax-to-Revenue Ratio of 20.00% falls within the typical range (15-25%), but the higher Profit Margin raises concerns about tax payments.",
+          "profit_margin": "The Profit Margin of 28.00% is higher than industry averages, indicating potentially higher profits that may not be fully reflected in tax payments.",
+          "revenue_vs_employee_growth": "The 18.00% Employee Growth aligns reasonably well with the 22.00% Revenue Growth, suggesting a correlation between revenue and workforce expansion.",
+          "debt_ratio": "The Debt Ratio of 55.00% is relatively high, indicating a significant portion of the company's assets are financed through debt, which could lead to financial challenges and potential tax evasion.",
+          "operating_expenses": "The Expense-to-Sales Ratio of 68.24% indicates that a significant portion of the revenue is used to cover operating expenses, which is within a reasonable range."
+        },
+        "analysis_timestamp": "2026-02-07T10:05:20.413210",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T10:06:32.494111"
+      },
+      {
+        "Unnamed: 0": 3,
+        "company_name": "FastFood Chains Inc",
+        "sales": 3200000,
+        "revenue_growth": 0.08,
+        "profit_margin": 0.15,
+        "employee_growth": 0.05,
+        "debt_ratio": 0.65,
+        "operating_expenses": 2800000,
+        "tax_to_revenue_ratio": 0.14,
+        "expense_to_sales_ratio": 0.8749999999997267,
+        "tax_efficiency": 0.9333271111525925,
+        "growth_consistency": 0.03,
+        "profit_to_tax_ratio": 1.0714209184220111,
+        "debt_to_profit": 4.333304444637036,
+        "risk_level": 1,
+        "confidence_score": 0.7,
+        "risk_category": "Medium Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio is below the industry norm of 15-25% at 14.00%",
+          "The profit margin is 15.00% while the tax efficiency is 0.9333, indicating potential tax optimization",
+          "There is a gap of 3.00% between revenue growth and employee growth, suggesting inconsistency"
+        ],
+        "red_flags": [
+          "Low tax-to-revenue ratio",
+          "Inconsistent revenue and employee growth"
+        ],
+        "reasoning": "FastFood Chains Inc shows some concerning patterns that raise the risk of tax evasion. The tax-to-revenue ratio of 14.00% is below the industry norm, indicating a potential tax avoidance strategy. Additionally, the profit margin of 15.00% combined with a tax efficiency of 0.9333 suggests the company may be optimizing its tax payments. The gap of 3.00% between revenue growth and employee growth indicates inconsistency in the company's operations, which could be a red flag for potential tax evasion strategies.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio is below industry norms, indicating potential tax evasion strategies.",
+          "profit_margin": "The profit margin is reasonable, but the tax efficiency suggests potential tax optimization.",
+          "revenue_vs_employee_growth": "There is an inconsistency between revenue growth and employee growth, indicating a potential issue in operations.",
+          "debt_ratio": "The debt ratio of 65.00% is high, but not a direct indicator of tax evasion.",
+          "operating_expenses": "The operating expenses are high compared to sales, which could be a normal aspect of the industry."
+        },
+        "analysis_timestamp": "2026-02-07T10:05:25.154950",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T10:06:32.494111"
+      },
+      {
+        "Unnamed: 0": 4,
+        "company_name": "CloudNet Services",
+        "sales": 15000000,
+        "revenue_growth": 0.45,
+        "profit_margin": 0.38,
+        "employee_growth": 0.35,
+        "debt_ratio": 0.15,
+        "operating_expenses": 8200000,
+        "tax_to_revenue_ratio": 0.08,
+        "expense_to_sales_ratio": 0.5466666666666302,
+        "tax_efficiency": 0.21052576177431115,
+        "growth_consistency": 0.10000000000000003,
+        "profit_to_tax_ratio": 4.749940625742178,
+        "debt_to_profit": 0.39473580332683333,
+        "risk_level": 1,
+        "confidence_score": 0.7,
+        "risk_category": "Medium Risk",
+        "key_findings": [
+          "The Tax-to-Revenue Ratio is significantly lower than the industry norm (8.00% vs 15-25%)",
+          "There is a notable inconsistency between the high Profit Margin (38.00%) and low Tax-to-Revenue Ratio (8.00%)",
+          "The Debt-to-Profit ratio is relatively high at 0.39"
+        ],
+        "red_flags": [
+          "Low Tax-to-Revenue Ratio",
+          "High Profit Margin with low Tax payments"
+        ],
+        "reasoning": "CloudNet Services exhibits some concerning patterns that indicate a medium risk of tax evasion. The Tax-to-Revenue Ratio of 8.00% is well below the industry norm of 15-25%, suggesting potential underreporting of taxable income. Additionally, the high Profit Margin of 38.00% combined with a low Tax-to-Revenue Ratio indicates a possible discrepancy between reported profits and tax payments. The Debt-to-Profit ratio of 0.39 is relatively high, which could be a strategy to reduce taxable income. While these findings raise suspicions, further investigation is needed to confirm tax evasion.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The Tax-to-Revenue Ratio is 8.00%, significantly lower than the industry norm, indicating potential tax evasion.",
+          "profit_margin": "The Profit Margin is 38.00%, which is high but contrasts with the low Tax-to-Revenue Ratio, suggesting inconsistencies.",
+          "revenue_vs_employee_growth": "The Revenue Growth of 45.00% slightly outpaces the Employee Growth of 35.00%, indicating reasonable growth management.",
+          "debt_ratio": "The Debt Ratio is 15.00%, within a reasonable range and not indicating excessive leveraging.",
+          "operating_expenses": "The Operating Expenses amount to $8,200,000.00, which seems proportionate to the Sales revenue."
+        },
+        "analysis_timestamp": "2026-02-07T10:05:29.716178",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T10:06:32.494111"
+      },
+      {
+        "Unnamed: 0": 5,
+        "company_name": "Premium Retail Co",
+        "sales": 6700000,
+        "revenue_growth": 0.18,
+        "profit_margin": 0.22,
+        "employee_growth": 0.15,
+        "debt_ratio": 0.48,
+        "operating_expenses": 4900000,
+        "tax_to_revenue_ratio": 0.17,
+        "expense_to_sales_ratio": 0.7313432835819804,
+        "tax_efficiency": 0.7727237603465439,
+        "growth_consistency": 0.03,
+        "profit_to_tax_ratio": 1.294110034646855,
+        "debt_to_profit": 2.1818082645078887,
+        "risk_level": 1,
+        "confidence_score": 0.7,
+        "risk_category": "Medium Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio of 17.00% is within the typical range (15-25%)",
+          "The profit margin of 22.00% is healthy and does not raise immediate concerns",
+          "There is a slight inconsistency between revenue growth of 18.00% and employee growth of 15.00%"
+        ],
+        "red_flags": [],
+        "reasoning": "Premium Retail Co shows some concerning patterns that warrant monitoring for potential tax evasion risks. While the tax-to-revenue ratio falls within the typical range, the slight inconsistency between revenue growth and employee growth could indicate aggressive cost-cutting measures. Additionally, the high debt ratio of 48.00% and the relatively high expense-to-sales ratio of 73.13% suggest a heavy reliance on debt financing and potentially inefficient cost management practices. These factors combined raise some red flags and indicate the need for closer scrutiny.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio is within the typical range, indicating no immediate red flags.",
+          "profit_margin": "The profit margin is healthy and does not indicate evasion.",
+          "revenue_vs_employee_growth": "There is a slight inconsistency between revenue growth and employee growth, suggesting potential cost-cutting measures.",
+          "debt_ratio": "The high debt ratio of 48.00% indicates a significant reliance on debt financing.",
+          "operating_expenses": "The high expense-to-sales ratio of 73.13% indicates relatively high operating expenses compared to sales."
+        },
+        "analysis_timestamp": "2026-02-07T10:05:33.843402",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T10:06:32.494111"
+      },
+      {
+        "Unnamed: 0": 6,
+        "company_name": "AutoParts Direct",
+        "sales": 4500000,
+        "revenue_growth": 0.12,
+        "profit_margin": 0.19,
+        "employee_growth": 0.1,
+        "debt_ratio": 0.58,
+        "operating_expenses": 3400000,
+        "tax_to_revenue_ratio": 0.16,
+        "expense_to_sales_ratio": 0.7555555555553876,
+        "tax_efficiency": 0.8421008310482576,
+        "growth_consistency": 0.01999999999999999,
+        "profit_to_tax_ratio": 1.1874925781713863,
+        "debt_to_profit": 3.052615512549934,
+        "risk_level": 0,
+        "confidence_score": 0.8,
+        "risk_category": "No Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio is 16.00%, within the typical range of 15-25%.",
+          "The profit margin is 19.00%, indicating healthy profitability.",
+          "The revenue growth of 12.00% aligns well with the employee growth of 10.00%."
+        ],
+        "red_flags": [],
+        "reasoning": "AutoParts Direct shows no significant red flags for tax evasion risk based on the provided financial indicators. The tax-to-revenue ratio falls within the industry norm, the profit margin is healthy, and the revenue growth correlates reasonably with employee growth. The debt ratio of 58.00% is high but not necessarily indicative of tax evasion, as it could be strategic financing. Operating expenses are well managed, with an expense-to-sales ratio of 75.56% indicating efficient cost control.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio of 16.00% is within the typical range, suggesting compliance with tax obligations.",
+          "profit_margin": "The profit margin of 19.00% indicates healthy profitability and does not raise concerns.",
+          "revenue_vs_employee_growth": "The correlation between revenue growth (12.00%) and employee growth (10.00%) is reasonable, indicating efficient scaling.",
+          "debt_ratio": "The debt ratio of 58.00% is relatively high but may reflect strategic financing decisions rather than tax evasion.",
+          "operating_expenses": "The operating expenses of $3,400,000.00 are well managed, with an expense-to-sales ratio of 75.56% showing efficient cost control."
+        },
+        "analysis_timestamp": "2026-02-07T10:05:37.667788",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T10:06:32.494111"
+      },
+      {
+        "Unnamed: 0": 7,
+        "company_name": "Digital Marketing Pro",
+        "sales": 2800000,
+        "revenue_growth": 0.28,
+        "profit_margin": 0.45,
+        "employee_growth": 0.22,
+        "debt_ratio": 0.2,
+        "operating_expenses": 1400000,
+        "tax_to_revenue_ratio": 0.04,
+        "expense_to_sales_ratio": 0.4999999999998215,
+        "tax_efficiency": 0.08888869135846365,
+        "growth_consistency": 0.060000000000000026,
+        "profit_to_tax_ratio": 11.249718757031074,
+        "debt_to_profit": 0.4444434567923183,
+        "risk_level": 2,
+        "confidence_score": 0.8,
+        "risk_category": "High Risk",
+        "key_findings": [
+          "Tax-to-Revenue ratio of 4.00% is significantly lower than the industry norm of 15-25%",
+          "Profit Margin of 45.00% is high compared to the low Tax-to-Revenue ratio of 4.00%",
+          "Growth Consistency Gap of 6.00% indicates potential inconsistencies between revenue and employee growth"
+        ],
+        "red_flags": [
+          "Low Tax-to-Revenue ratio",
+          "High Profit Margin combined with low Tax-to-Revenue ratio"
+        ],
+        "reasoning": "Digital Marketing Pro exhibits multiple red flags indicating a high risk of tax evasion. The Tax-to-Revenue ratio of 4.00% is well below the industry norm of 15-25%, suggesting potential underreporting of revenue or tax evasion. The high Profit Margin of 45.00% is inconsistent with the low Tax-to-Revenue ratio, indicating a possible manipulation of profits to reduce tax obligations. Additionally, the Growth Consistency Gap of 6.00% raises concerns about the correlation between revenue growth and employee growth, which could be a tactic to mask actual income. These factors collectively point towards a high risk of tax evasion.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The Tax-to-Revenue ratio of 4.00% is significantly lower than the industry norm, indicating potential tax evasion.",
+          "profit_margin": "The high Profit Margin of 45.00% in conjunction with the low Tax-to-Revenue ratio raises suspicions of profit manipulation for tax evasion purposes.",
+          "revenue_vs_employee_growth": "The 22.00% Employee Growth is slightly lower than the Revenue Growth of 28.00%, suggesting a minor inconsistency.",
+          "debt_ratio": "The Debt Ratio of 20.00% is within reasonable limits and does not raise immediate concerns.",
+          "operating_expenses": "The Operating Expenses of $1,400,000.00 seem proportionate to the Sales revenue."
+        },
+        "analysis_timestamp": "2026-02-07T10:05:42.419286",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T10:06:32.494111"
+      },
+      {
+        "Unnamed: 0": 8,
+        "company_name": "HealthCare Supplies",
+        "sales": 9200000,
+        "revenue_growth": 0.2,
+        "profit_margin": 0.26,
+        "employee_growth": 0.17,
+        "debt_ratio": 0.42,
+        "operating_expenses": 6500000,
+        "tax_to_revenue_ratio": 0.19,
+        "expense_to_sales_ratio": 0.706521739130358,
+        "tax_efficiency": 0.7307664201291534,
+        "growth_consistency": 0.03,
+        "profit_to_tax_ratio": 1.3684138504534187,
+        "debt_to_profit": 1.61537840239076,
+        "risk_level": 1,
+        "confidence_score": 0.7,
+        "risk_category": "Medium Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio is within the typical range at 19.00%",
+          "The profit margin is high at 26.00%, which could indicate aggressive tax planning",
+          "There is a gap of 3.00% between revenue growth and employee growth"
+        ],
+        "red_flags": [
+          "High profit margin compared to tax payments",
+          "Inconsistency between revenue growth and employee growth"
+        ],
+        "reasoning": "HealthCare Supplies shows some concerning patterns that warrant monitoring for potential tax evasion. While the tax-to-revenue ratio falls within the typical range, the high profit margin of 26.00% raises a red flag as it could indicate aggressive tax planning strategies. Additionally, the gap of 3.00% between revenue growth and employee growth suggests a potential mismatch in resource allocation. These inconsistencies highlight the need for closer scrutiny to ensure compliance with tax regulations.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio is within the typical range, indicating no immediate red flag.",
+          "profit_margin": "The high profit margin of 26.00% raises concerns about aggressive tax planning.",
+          "revenue_vs_employee_growth": "The gap of 3.00% between revenue growth and employee growth suggests a potential mismatch in resource allocation.",
+          "debt_ratio": "The debt ratio of 42.00% is relatively high but does not indicate immediate tax evasion risk.",
+          "operating_expenses": "The operating expenses are $6,500,000.00, which seems reasonable based on the sales volume."
+        },
+        "analysis_timestamp": "2026-02-07T10:05:47.073460",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T10:06:32.494111"
+      },
+      {
+        "Unnamed: 0": 9,
+        "company_name": "FinTech Innovations",
+        "sales": 18000000,
+        "revenue_growth": 0.52,
+        "profit_margin": 0.48,
+        "employee_growth": 0.4,
+        "debt_ratio": 0.12,
+        "operating_expenses": 8500000,
+        "tax_to_revenue_ratio": 0.05,
+        "expense_to_sales_ratio": 0.472222222222196,
+        "tax_efficiency": 0.10416644965322991,
+        "growth_consistency": 0.12,
+        "profit_to_tax_ratio": 9.599808003839922,
+        "debt_to_profit": 0.24999947916775175,
+        "risk_level": 2,
+        "confidence_score": 0.7,
+        "risk_category": "High Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio is significantly lower than the industry norm at 5.00%.",
+          "The profit margin of 48.00% is high compared to the low tax-to-revenue ratio of 5.00%.",
+          "There is a notable gap of 12.00% between revenue growth (52.00%) and employee growth (40.00%)."
+        ],
+        "red_flags": [
+          "Low tax-to-revenue ratio compared to industry norms",
+          "High profit margin combined with low tax payments"
+        ],
+        "reasoning": "FinTech Innovations exhibits several concerning patterns that raise suspicion of potential tax evasion. The tax-to-revenue ratio of 5.00% is significantly below the typical range of 15-25%, indicating a possible underreporting of taxable income. The high profit margin of 48.00% in conjunction with the low tax-to-revenue ratio suggests a discrepancy between reported profits and tax payments. Additionally, the notable gap of 12.00% between revenue growth and employee growth raises questions about the consistency and accuracy of financial reporting. These red flags warrant further investigation and monitoring for potential tax evasion activities.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio of 5.00% is well below the industry norm, indicating a potential risk of tax evasion.",
+          "profit_margin": "The high profit margin of 48.00% raises concerns when coupled with the low tax payments, suggesting a possible discrepancy.",
+          "revenue_vs_employee_growth": "The gap of 12.00% between revenue growth and employee growth indicates a lack of alignment and potential inconsistencies in reporting.",
+          "debt_ratio": "The debt ratio of 12.00% is relatively low, indicating a conservative approach to financing.",
+          "operating_expenses": "The operating expenses of $8,500,000.00 seem reasonable relative to sales and profit margins."
+        },
+        "analysis_timestamp": "2026-02-07T10:05:51.712233",
+        "needs_manual_review": false,
+        "rule_based_validation": {
+          "rules_triggered": [
+            "High profit/low tax rule triggered"
+          ],
+          "validation_passed": true
+        },
+        "saved_at": "2026-02-07T10:06:32.494111"
+      },
+      {
+        "Unnamed: 0": 10,
+        "company_name": "Construction Plus",
+        "sales": 7300000,
+        "revenue_growth": 0.14,
+        "profit_margin": 0.21,
+        "employee_growth": 0.11,
+        "debt_ratio": 0.72,
+        "operating_expenses": 5600000,
+        "tax_to_revenue_ratio": 0.15,
+        "expense_to_sales_ratio": 0.7671232876711278,
+        "tax_efficiency": 0.7142823129413669,
+        "growth_consistency": 0.030000000000000013,
+        "profit_to_tax_ratio": 1.3999906667288884,
+        "debt_to_profit": 3.4285551021185614,
+        "risk_level": 1,
+        "confidence_score": 0.7,
+        "risk_category": "Medium Risk",
+        "key_findings": [
+          "The Profit Margin of 21.00% is slightly higher than the industry average, which could indicate potential profit manipulation.",
+          "The Debt Ratio of 72.00% is significantly higher than the industry norm, suggesting potential financial distress or aggressive tax planning.",
+          "The Debt-to-Profit ratio of 3.43 is relatively high, indicating a heavy debt burden that may lead to financial instability."
+        ],
+        "red_flags": [
+          "High Debt Ratio of 72.00%",
+          "Profit Margin higher than industry average"
+        ],
+        "reasoning": "Construction Plus shows some concerning financial patterns that raise the risk of tax evasion. The Profit Margin of 21.00% is slightly higher than the industry average, which could indicate potential profit manipulation to reduce taxable income. The Debt Ratio of 72.00% is significantly higher than the typical range, suggesting potential aggressive tax planning strategies or financial distress. Additionally, the Debt-to-Profit ratio of 3.43 is relatively high, indicating a heavy debt burden that may be used for tax avoidance purposes. These factors combined warrant a medium risk level for potential tax evasion.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The Tax-to-Revenue Ratio of 15.00% falls within the industry norm (15-25%), indicating no immediate red flag.",
+          "profit_margin": "The Profit Margin of 21.00% is slightly higher than industry averages, suggesting potential profit manipulation.",
+          "revenue_vs_employee_growth": "The Revenue Growth of 14.00% is slightly higher than the Employee Growth of 11.00%, indicating a moderate misalignment in resource utilization.",
+          "debt_ratio": "The Debt Ratio of 72.00% is significantly higher than industry norms, indicating potential financial distress or aggressive tax planning.",
+          "operating_expenses": "The Expense-to-Sales Ratio of 76.71% is relatively high, indicating a significant portion of revenue is used to cover expenses."
+        },
+        "analysis_timestamp": "2026-02-07T10:05:56.296262",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T10:06:32.494111"
+      },
+      {
+        "Unnamed: 0": 11,
+        "company_name": "EduTech Learning",
+        "sales": 5500000,
+        "revenue_growth": 0.25,
+        "profit_margin": 0.32,
+        "employee_growth": 0.2,
+        "debt_ratio": 0.28,
+        "operating_expenses": 3600000,
+        "tax_to_revenue_ratio": 0.12,
+        "expense_to_sales_ratio": 0.6545454545453355,
+        "tax_efficiency": 0.3749988281286621,
+        "growth_consistency": 0.04999999999999999,
+        "profit_to_tax_ratio": 2.666644444629628,
+        "debt_to_profit": 0.8749972656335451,
+        "risk_level": 1,
+        "confidence_score": 0.7,
+        "risk_category": "Medium Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio of 12.00% is below the industry norm of 15-25%",
+          "The profit margin of 32.00% is high compared to the tax-to-revenue ratio of 12.00%",
+          "There is a 5.00% gap between revenue growth of 25.00% and employee growth of 20.00%"
+        ],
+        "red_flags": [
+          "Low tax-to-revenue ratio",
+          "High profit margin compared to tax ratio"
+        ],
+        "reasoning": "EduTech Learning shows some concerning patterns that indicate a medium risk of tax evasion. The tax-to-revenue ratio of 12.00% is below the typical range of 15-25%, suggesting potential underreporting of income. Additionally, the high profit margin of 32.00% compared to the low tax-to-revenue ratio raises suspicions of profit manipulation to reduce tax obligations. The 5.00% gap between revenue growth and employee growth indicates a possible inconsistency in the company's reported financial performance.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio of 12.00% is below the industry norm, indicating potential tax evasion.",
+          "profit_margin": "The high profit margin of 32.00% compared to the low tax-to-revenue ratio suggests profit manipulation for tax evasion purposes.",
+          "revenue_vs_employee_growth": "The 5.00% gap between revenue growth and employee growth raises concerns about the accuracy of reported financial data.",
+          "debt_ratio": "The debt ratio of 28.00% is within a reasonable range and does not raise immediate red flags.",
+          "operating_expenses": "The operating expenses of $3,600,000.00 seem reasonable relative to sales and do not indicate evasion."
+        },
+        "analysis_timestamp": "2026-02-07T10:05:59.967458",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T10:06:32.494111"
+      },
+      {
+        "Unnamed: 0": 12,
+        "company_name": "Fashion Boutique",
+        "sales": 3900000,
+        "revenue_growth": 0.1,
+        "profit_margin": 0.18,
+        "employee_growth": 0.08,
+        "debt_ratio": 0.55,
+        "operating_expenses": 3100000,
+        "tax_to_revenue_ratio": 0.16,
+        "expense_to_sales_ratio": 0.7948717948715911,
+        "tax_efficiency": 0.8888839506447187,
+        "growth_consistency": 0.020000000000000004,
+        "profit_to_tax_ratio": 1.124992968793945,
+        "debt_to_profit": 3.0555385803412207,
+        "risk_level": 1,
+        "confidence_score": 0.7,
+        "risk_category": "Medium Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio of 16.00% is within the typical range (15-25%)",
+          "The profit margin of 18.00% is reasonable but the profit-to-tax ratio of 1.12 is slightly higher than expected",
+          "The debt ratio of 55.00% is relatively high and the debt-to-profit ratio of 3.06 is concerning"
+        ],
+        "red_flags": [
+          "Higher profit-to-tax ratio than expected",
+          "High debt-to-profit ratio"
+        ],
+        "reasoning": "Fashion Boutique shows some concerning patterns that indicate a medium risk of tax evasion. While the tax-to-revenue ratio falls within the typical range, the higher profit-to-tax ratio and the high debt-to-profit ratio suggest potential inconsistencies. The company's debt level is relatively high compared to its profit, which could be a red flag for financial manipulation. Monitoring these metrics closely is advisable to detect any potential tax evasion practices.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio of 16.00% is within the typical range, indicating no immediate red flag.",
+          "profit_margin": "The profit margin of 18.00% is reasonable, but the higher profit-to-tax ratio of 1.12 raises some concerns.",
+          "revenue_vs_employee_growth": "The revenue growth of 10.00% aligns reasonably well with the employee growth of 8.00%, indicating a healthy correlation.",
+          "debt_ratio": "The debt ratio of 55.00% is relatively high, suggesting potential financial leverage issues.",
+          "operating_expenses": "The operating expenses amount to $3,100,000.00, resulting in an expense-to-sales ratio of 79.49%, which is high but not uncommon in certain industries."
+        },
+        "analysis_timestamp": "2026-02-07T10:06:03.685314",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T10:06:32.494111"
+      },
+      {
+        "Unnamed: 0": 13,
+        "company_name": "Data Analytics Corp",
+        "sales": 11000000,
+        "revenue_growth": 0.38,
+        "profit_margin": 0.4,
+        "employee_growth": 0.32,
+        "debt_ratio": 0.18,
+        "operating_expenses": 6200000,
+        "tax_to_revenue_ratio": 0.07,
+        "expense_to_sales_ratio": 0.5636363636363124,
+        "tax_efficiency": 0.17499956250109377,
+        "growth_consistency": 0.06,
+        "profit_to_tax_ratio": 5.714204082798817,
+        "debt_to_profit": 0.4499988750028125,
+        "risk_level": 1,
+        "confidence_score": 0.7,
+        "risk_category": "Medium Risk",
+        "key_findings": [
+          "The Tax-to-Revenue Ratio is significantly lower than the industry norm (7.00% vs 15-25%)",
+          "The Profit-to-Tax Ratio is unusually low at 5.71, indicating potential tax evasion",
+          "There is a notable gap of 6.00% between Revenue Growth and Employee Growth"
+        ],
+        "red_flags": [
+          "Low Tax-to-Revenue Ratio",
+          "Low Profit-to-Tax Ratio"
+        ],
+        "reasoning": "Data Analytics Corp exhibits several concerning patterns that raise suspicion of tax evasion. The company's Tax-to-Revenue Ratio of 7.00% is well below the industry norm of 15-25%, suggesting possible underreporting of income. Additionally, the Profit-to-Tax Ratio of 5.71 is unusually low, indicating potential manipulation of profits to reduce tax obligations. The significant gap of 6.00% between Revenue Growth and Employee Growth raises questions about the consistency of reported financial data. While these findings do not conclusively prove tax evasion, they warrant further investigation and monitoring.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The Tax-to-Revenue Ratio of 7.00% is below the typical range, indicating potential tax evasion.",
+          "profit_margin": "The Profit Margin of 40.00% is healthy and does not directly suggest tax evasion.",
+          "revenue_vs_employee_growth": "The gap of 6.00% between Revenue Growth and Employee Growth raises concerns about data consistency.",
+          "debt_ratio": "The Debt Ratio of 18.00% is reasonable and does not indicate immediate risk.",
+          "operating_expenses": "The Operating Expenses of $6,200,000.00 seem in line with the company's revenue size."
+        },
+        "analysis_timestamp": "2026-02-07T10:06:07.831855",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T10:06:32.494111"
+      },
+      {
+        "Unnamed: 0": 14,
+        "company_name": "Pharma Research Ltd",
+        "sales": 13500000,
+        "revenue_growth": 0.3,
+        "profit_margin": 0.35,
+        "employee_growth": 0.25,
+        "debt_ratio": 0.35,
+        "operating_expenses": 8900000,
+        "tax_to_revenue_ratio": 0.22,
+        "expense_to_sales_ratio": 0.6592592592592104,
+        "tax_efficiency": 0.6285696326581925,
+        "growth_consistency": 0.04999999999999999,
+        "profit_to_tax_ratio": 1.590901859537002,
+        "debt_to_profit": 0.9999971428653062,
+        "risk_level": 0,
+        "confidence_score": 0.8,
+        "risk_category": "No Risk",
+        "key_findings": [
+          "Tax-to-Revenue Ratio within industry norms at 22.00%",
+          "Profit Margin of 35.00% is healthy",
+          "Reasonable correlation between Revenue Growth of 30.00% and Employee Growth of 25.00%"
+        ],
+        "red_flags": [],
+        "reasoning": "Pharma Research Ltd shows no significant red flags for tax evasion risk based on the provided financial indicators. The Tax-to-Revenue Ratio of 22.00% falls within the typical industry range of 15-25%, indicating a reasonable tax contribution. The Profit Margin of 35.00% is healthy, suggesting efficient operations. The correlation between Revenue Growth of 30.00% and Employee Growth of 25.00% indicates effective scaling of the workforce to support business growth. The Debt Ratio of 35.00% is moderate, indicating a balanced level of debt usage. Operating Expenses are at $8,900,000.00, which seems reasonable given the Sales revenue of $13,500,000.00.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The Tax-to-Revenue Ratio is within industry norms, indicating compliance.",
+          "profit_margin": "The Profit Margin is healthy, suggesting efficient operations.",
+          "revenue_vs_employee_growth": "There is a reasonable correlation between Revenue Growth and Employee Growth, indicating effective scaling.",
+          "debt_ratio": "The Debt Ratio is moderate, suggesting a balanced level of debt usage.",
+          "operating_expenses": "Operating Expenses are in line with the Sales revenue, indicating efficient cost management."
+        },
+        "analysis_timestamp": "2026-02-07T10:06:11.603974",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T10:06:32.494111"
+      },
+      {
+        "Unnamed: 0": 15,
+        "company_name": "Transport Logistics",
+        "sales": 6100000,
+        "revenue_growth": 0.16,
+        "profit_margin": 0.2,
+        "employee_growth": 0.13,
+        "debt_ratio": 0.68,
+        "operating_expenses": 4700000,
+        "tax_to_revenue_ratio": 0.17,
+        "expense_to_sales_ratio": 0.7704918032785621,
+        "tax_efficiency": 0.8499957500212499,
+        "growth_consistency": 0.03,
+        "profit_to_tax_ratio": 1.1764636678607772,
+        "debt_to_profit": 3.3999830000849998,
+        "risk_level": 1,
+        "confidence_score": 0.7,
+        "risk_category": "Medium Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio of 17.00% is within the typical range but slightly on the lower side.",
+          "The profit margin of 20.00% is healthy and aligns well with the tax efficiency of 0.8500.",
+          "There is a gap of 3.00% between revenue growth (16.00%) and employee growth (13.00%), indicating a slight inconsistency."
+        ],
+        "red_flags": [],
+        "reasoning": "Transport Logistics shows some concerning patterns that warrant monitoring for potential tax evasion risks. While the tax-to-revenue ratio falls within the typical range, the slight inconsistency between revenue and employee growth rates raises a flag. Additionally, the debt ratio of 68.00% and the high expense-to-sales ratio of 77.05% suggest a heavy reliance on debt financing and relatively high operating expenses, which could be used to manipulate profits for tax purposes. Although the profit margin and tax efficiency seem reasonable, the inconsistencies in growth metrics and high debt ratio indicate a need for closer scrutiny.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio is within the typical range but slightly lower, indicating a moderate level of tax compliance.",
+          "profit_margin": "The profit margin is healthy and aligns well with the tax efficiency, suggesting no immediate red flags.",
+          "revenue_vs_employee_growth": "There is a slight inconsistency between revenue growth and employee growth, indicating a need for further investigation.",
+          "debt_ratio": "The high debt ratio of 68.00% raises concerns about the company's financial leverage and potential tax strategies.",
+          "operating_expenses": "The high expense-to-sales ratio of 77.05% indicates significant operating costs that could be used to manipulate profits for tax purposes."
+        },
+        "analysis_timestamp": "2026-02-07T10:06:15.515462",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T10:06:32.494111"
+      },
+      {
+        "Unnamed: 0": 16,
+        "company_name": "Coffee Chain Stores",
+        "sales": 4200000,
+        "revenue_growth": 0.09,
+        "profit_margin": 0.16,
+        "employee_growth": 0.06,
+        "debt_ratio": 0.62,
+        "operating_expenses": 3500000,
+        "tax_to_revenue_ratio": 0.15,
+        "expense_to_sales_ratio": 0.8333333333331349,
+        "tax_efficiency": 0.9374941406616208,
+        "growth_consistency": 0.03,
+        "profit_to_tax_ratio": 1.0666595556029628,
+        "debt_to_profit": 3.874975781401366,
+        "risk_level": 1,
+        "confidence_score": 0.7,
+        "risk_category": "Medium Risk",
+        "key_findings": [
+          "The Profit Margin of 16.00% is slightly below the industry average, which could indicate potential tax evasion strategies.",
+          "The Debt Ratio of 62.00% is relatively high and may suggest financial distress or aggressive tax planning.",
+          "The Debt-to-Profit ratio of 3.88 is significantly higher than usual, indicating potential financial instability."
+        ],
+        "red_flags": [
+          "High Debt Ratio of 62.00%",
+          "Significantly high Debt-to-Profit ratio of 3.88"
+        ],
+        "reasoning": "Coffee Chain Stores exhibits several concerning financial indicators that raise the risk of tax evasion. The Profit Margin of 16.00% is slightly below the industry average, which could be a red flag for potential tax evasion strategies. The Debt Ratio of 62.00% is relatively high, indicating a significant reliance on debt financing, which could be used for tax avoidance purposes. Additionally, the Debt-to-Profit ratio of 3.88 is significantly higher than usual, suggesting potential financial instability and a higher likelihood of tax evasion. While the Tax-to-Revenue Ratio is within the normal range, the combination of lower profit margins and high debt levels increases the overall risk level.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The Tax-to-Revenue Ratio of 15.00% is within the typical range (15-25%), indicating no immediate red flag.",
+          "profit_margin": "The Profit Margin of 16.00% is slightly below the industry average, raising concerns about potential tax evasion strategies.",
+          "revenue_vs_employee_growth": "The Revenue Growth of 9.00% correlates reasonably with the Employee Growth of 6.00%, suggesting a healthy relationship between revenue and workforce expansion.",
+          "debt_ratio": "The Debt Ratio of 62.00% is relatively high, indicating a significant reliance on debt financing which could be used for tax avoidance purposes.",
+          "operating_expenses": "The Operating Expenses of $3,500,000.00 seem reasonable compared to Sales, with an Expense-to-Sales Ratio of 83.33% indicating efficient cost management."
+        },
+        "analysis_timestamp": "2026-02-07T10:06:20.414320",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T10:06:32.494111"
+      },
+      {
+        "Unnamed: 0": 17,
+        "company_name": "AI Robotics Inc",
+        "sales": 16500000,
+        "revenue_growth": 0.48,
+        "profit_margin": 0.46,
+        "employee_growth": 0.38,
+        "debt_ratio": 0.1,
+        "operating_expenses": 8800000,
+        "tax_to_revenue_ratio": 0.06,
+        "expense_to_sales_ratio": 0.533333333333301,
+        "tax_efficiency": 0.13043449905543683,
+        "growth_consistency": 0.09999999999999998,
+        "profit_to_tax_ratio": 7.666538891018483,
+        "debt_to_profit": 0.2173908317590614,
+        "risk_level": 2,
+        "confidence_score": 0.7,
+        "risk_category": "High Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio of 6.00% is significantly lower than the industry norm of 15-25%",
+          "The profit margin of 46.00% is high compared to the low tax-to-revenue ratio of 6.00%",
+          "There is a notable gap of 10.00% between revenue growth of 48.00% and employee growth of 38.00%"
+        ],
+        "red_flags": [
+          "Low tax-to-revenue ratio compared to industry norms",
+          "High profit margin combined with low tax payments"
+        ],
+        "reasoning": "AI Robotics Inc shows concerning patterns that indicate a medium risk of tax evasion. The low tax-to-revenue ratio of 6.00% is well below the industry norm of 15-25%, suggesting potential tax underreporting. The high profit margin of 46.00% raises suspicion when coupled with the low tax payments, indicating a possible manipulation of profits to reduce tax liabilities. Additionally, the significant gap of 10.00% between revenue growth and employee growth may signal inconsistencies in financial reporting or potential tax evasion strategies.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio of 6.00% is significantly below the industry norm, indicating potential tax evasion.",
+          "profit_margin": "The high profit margin of 46.00% raises concerns when compared to the low tax payments, suggesting possible profit manipulation for tax evasion purposes.",
+          "revenue_vs_employee_growth": "The gap of 10.00% between revenue growth and employee growth indicates a potential discrepancy in reported financial figures.",
+          "debt_ratio": "The debt ratio of 10.00% is relatively low, which is generally positive and does not raise immediate concerns.",
+          "operating_expenses": "The operating expenses of $8,800,000.00 seem reasonable relative to sales and do not indicate any immediate red flags."
+        },
+        "analysis_timestamp": "2026-02-07T10:06:25.338700",
+        "needs_manual_review": false,
+        "rule_based_validation": {
+          "rules_triggered": [
+            "High profit/low tax rule triggered"
+          ],
+          "validation_passed": true
+        },
+        "saved_at": "2026-02-07T10:06:32.494111"
+      },
+      {
+        "Unnamed: 0": 18,
+        "company_name": "Home Decor Emporium",
+        "sales": 5800000,
+        "revenue_growth": 0.19,
+        "profit_margin": 0.24,
+        "employee_growth": 0.16,
+        "debt_ratio": 0.5,
+        "operating_expenses": 4200000,
+        "tax_to_revenue_ratio": 0.18,
+        "expense_to_sales_ratio": 0.7241379310343579,
+        "tax_efficiency": 0.7499968750130208,
+        "growth_consistency": 0.03,
+        "profit_to_tax_ratio": 1.333325925967078,
+        "debt_to_profit": 2.0833246528139466,
+        "risk_level": 0,
+        "confidence_score": 0.8,
+        "risk_category": "No Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio of 18.00% falls within the typical industry range of 15-25%.",
+          "The profit margin of 24.00% is healthy and aligns well with the tax payment efficiency.",
+          "The revenue growth of 19.00% is slightly higher than the employee growth of 16.00%, indicating efficient scaling."
+        ],
+        "red_flags": [],
+        "reasoning": "Based on the analysis of the financial indicators for Home Decor Emporium, there are no significant red flags or suspicious patterns that indicate a high risk of tax evasion. The tax-to-revenue ratio, profit margin, revenue growth, debt ratio, and operating expenses all demonstrate healthy and consistent financial management practices. The company's tax efficiency, growth consistency, and debt-to-profit ratios also support the conclusion of no risk of tax evasion.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio of 18.00% is within the typical industry range, indicating compliance with tax obligations.",
+          "profit_margin": "The profit margin of 24.00% is healthy and suggests effective cost management.",
+          "revenue_vs_employee_growth": "The revenue growth outpacing employee growth by a small margin indicates efficient utilization of resources.",
+          "debt_ratio": "The debt ratio of 50.00% is relatively high but not alarming, considering the company's profit margin and revenue growth.",
+          "operating_expenses": "The operating expenses of $4,200,000.00 are in line with the sales revenue, reflecting efficient cost control."
+        },
+        "analysis_timestamp": "2026-02-07T10:06:28.277786",
+        "needs_manual_review": false,
+        "rule_based_validation": null,
+        "saved_at": "2026-02-07T10:06:32.494111"
+      },
+      {
+        "Unnamed: 0": 19,
+        "company_name": "Gaming Studios Pro",
+        "sales": 9800000,
+        "revenue_growth": 0.42,
+        "profit_margin": 0.44,
+        "employee_growth": 0.35,
+        "debt_ratio": 0.22,
+        "operating_expenses": 5100000,
+        "tax_to_revenue_ratio": 0.09,
+        "expense_to_sales_ratio": 0.520408163265253,
+        "tax_efficiency": 0.20454498967047802,
+        "growth_consistency": 0.07,
+        "profit_to_tax_ratio": 4.8888345685047945,
+        "debt_to_profit": 0.4999988636389463,
+        "risk_level": 2,
+        "confidence_score": 0.7,
+        "risk_category": "High Risk",
+        "key_findings": [
+          "The Tax-to-Revenue Ratio is below industry norms at 9.00%.",
+          "The Profit-to-Tax Ratio is high at 4.89, indicating potential tax efficiency strategies.",
+          "There is a 7.00% gap between Revenue Growth and Employee Growth, suggesting inconsistency."
+        ],
+        "red_flags": [
+          "Low Tax-to-Revenue Ratio",
+          "High Profit-to-Tax Ratio"
+        ],
+        "reasoning": "Gaming Studios Pro exhibits some concerning patterns that raise the risk of tax evasion. The company's Tax-to-Revenue Ratio of 9.00% is below the typical range of 15-25%, indicating a potential underpayment of taxes. Additionally, the high Profit-to-Tax Ratio of 4.89 suggests that the company may be employing tax efficiency strategies to reduce tax obligations. The gap of 7.00% between Revenue Growth and Employee Growth indicates a possible inconsistency in the company's reported financial performance, which could be a red flag for tax authorities.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The Tax-to-Revenue Ratio of 9.00% is below industry norms, indicating potential tax evasion risk.",
+          "profit_margin": "The Profit Margin of 44.00% is healthy and does not directly indicate tax evasion.",
+          "revenue_vs_employee_growth": "The 7.00% gap between Revenue Growth and Employee Growth suggests an inconsistency that may raise tax evasion concerns.",
+          "debt_ratio": "The Debt Ratio of 22.00% is reasonable and does not indicate immediate tax evasion risk.",
+          "operating_expenses": "The Operating Expenses of $5,100,000.00 are in line with the company's Sales and do not directly point to tax evasion."
+        },
+        "analysis_timestamp": "2026-02-07T10:06:32.474697",
+        "needs_manual_review": false,
+        "rule_based_validation": {
+          "rules_triggered": [
+            "High profit/low tax rule triggered"
+          ],
+          "validation_passed": true
+        },
+        "saved_at": "2026-02-07T10:06:32.494111"
+      },
+      {
+        "company_name": "Alpha",
+        "risk_level": 0,
+        "confidence_score": 0.8,
+        "risk_category": "No Risk",
+        "key_findings": [
+          "Tax-to-Revenue Ratio within industry norms at 18.00%",
+          "Profit Margin of 20.00% aligns with healthy financial performance",
+          "Reasonable correlation between Revenue Growth of 15.00% and Employee Growth of 12.00%"
+        ],
+        "red_flags": [],
+        "reasoning": "Based on the analysis of Alpha's financial indicators, the company exhibits normal financial patterns with appropriate tax ratios. The Tax-to-Revenue Ratio of 18.00% falls within the industry norms of 15-25%. The Profit Margin of 20.00% indicates a healthy financial performance. Additionally, the correlation between Revenue Growth and Employee Growth is reasonable, suggesting efficient resource utilization. Therefore, there are no significant red flags or anomalies indicating tax evasion risk.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The Tax-to-Revenue Ratio of 18.00% is within the typical range, indicating compliance with tax obligations.",
+          "profit_margin": "The Profit Margin of 20.00% reflects a healthy financial position and does not raise concerns about tax evasion.",
+          "revenue_vs_employee_growth": "The correlation between Revenue Growth and Employee Growth suggests efficient scaling of operations without indicating tax evasion.",
+          "debt_ratio": "The Debt Ratio of 50.00% should be monitored for potential financial leverage concerns but does not directly indicate tax evasion.",
+          "operating_expenses": "The Operating Expenses of $700,000.00 seem reasonable relative to Sales and do not suggest aggressive cost manipulation for tax evasion purposes."
+        },
+        "analysis_timestamp": "2026-02-07T10:08:17.627996",
+        "needs_manual_review": false,
+        "prediction_timestamp": "2026-02-07T10:08:17.627942",
+        "model_used": "gpt-3.5-turbo",
+        "saved_at": "2026-02-07T10:08:17.634854"
+      }
+    ],
+    "created_at": "2026-02-07T10:04:33.639853"
+  },
+  "A123": {
+    "password": "b22f213ec710f0b0e86297d10279d69171f50f01a04edf40f472a563e7ad8576",
+    "role": "user",
+    "name": "A123",
+    "analysis_results": [
+      {
+        "company_name": "Beta",
+        "risk_level": 0,
+        "confidence_score": 0.8,
+        "risk_category": "No Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio is 18.00%, within the typical range of 15-25%.",
+          "The profit margin is 20.00%, indicating a healthy profitability.",
+          "The revenue growth of 15.00% aligns well with the employee growth of 12.00%."
+        ],
+        "red_flags": [],
+        "reasoning": "Based on the analysis of the financial indicators provided for Beta, there are no significant red flags or suspicious patterns indicating tax evasion. The tax-to-revenue ratio of 18.00% falls within the industry norm of 15-25%, suggesting appropriate tax compliance. The profit margin of 20.00% reflects a healthy profitability level. The revenue growth of 15.00% is in line with the employee growth of 12.00%, indicating efficient utilization of resources. The debt ratio of 50.00% may be a bit high, but it does not raise immediate concerns given the profitability and revenue growth.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio is 18.00%, within the typical range, indicating compliance.",
+          "profit_margin": "The profit margin of 20.00% is healthy and does not suggest evasion.",
+          "revenue_vs_employee_growth": "The correlation between revenue growth and employee growth is reasonable.",
+          "debt_ratio": "The debt ratio of 50.00% is on the higher side but does not indicate evasion on its own.",
+          "operating_expenses": "The operating expenses are $700,000.00, which seems reasonable relative to sales."
+        },
+        "analysis_timestamp": "2026-02-07T10:11:22.928460",
+        "needs_manual_review": false,
+        "prediction_timestamp": "2026-02-07T10:11:22.928366",
+        "model_used": "gpt-3.5-turbo",
+        "saved_at": "2026-02-07T10:11:22.931793"
+      },
+      {
+        "company_name": "AlphaGo",
+        "risk_level": 0,
+        "confidence_score": 0.8,
+        "risk_category": "No Risk",
+        "key_findings": [
+          "Tax-to-Revenue Ratio within industry norms at 18.00%",
+          "Profit Margin of 20.00% aligns with healthy financial performance",
+          "Reasonable correlation between Revenue Growth of 15.00% and Employee Growth of 12.00%"
+        ],
+        "red_flags": [],
+        "reasoning": "Based on the analysis of AlphaGo's financial indicators, there are no significant red flags or anomalies that indicate a high risk of tax evasion. The tax-to-revenue ratio of 18.00% falls within the typical industry range of 15-25%, indicating a reasonable tax payment. The profit margin of 20.00% reflects a healthy financial performance, and the correlation between revenue growth and employee growth suggests a well-managed expansion. The debt ratio of 50.00% should be monitored, but it does not raise immediate concerns. Overall, the financial indicators do not show any clear signs of tax evasion.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio of 18.00% is within the industry norms, indicating compliance with tax obligations.",
+          "profit_margin": "The profit margin of 20.00% is healthy and does not suggest profit manipulation to evade taxes.",
+          "revenue_vs_employee_growth": "The correlation between Revenue Growth and Employee Growth is reasonable, indicating a balanced growth strategy.",
+          "debt_ratio": "The debt ratio of 50.00% is relatively high and should be monitored for potential financial risks, but it does not directly indicate tax evasion.",
+          "operating_expenses": "Operating expenses of $700,000.00 seem reasonable compared to the sales revenue of $1,000,000.00, reflecting efficient cost management."
+        },
+        "analysis_timestamp": "2026-02-07T10:44:05.077471",
+        "needs_manual_review": false,
+        "prediction_timestamp": "2026-02-07T10:44:05.066447",
+        "model_used": "gpt-3.5-turbo",
+        "ml_risk_level": 0,
+        "ml_risk_category": "No Risk",
+        "ml_confidence": 0.5142093777192813,
+        "saved_at": "2026-02-07T10:44:05.081512"
+      },
+      {
+        "company_name": "Delta",
+        "risk_level": 0,
+        "confidence_score": 0.8,
+        "risk_category": "No Risk",
+        "key_findings": [
+          "Tax-to-Revenue ratio is 18.00%, within the typical range of 15-25%",
+          "Profit margin is 20.00%, indicating healthy profitability",
+          "Revenue growth of 15.00% aligns well with employee growth of 12.00%"
+        ],
+        "red_flags": [],
+        "reasoning": "Based on the analysis of Delta's financial indicators, there are no significant red flags or suspicious patterns that indicate tax evasion risk. The tax-to-revenue ratio of 18.00% falls within the industry norm of 15-25%, suggesting appropriate tax compliance. The profit margin of 20.00% reflects a healthy level of profitability, and the alignment between revenue growth and employee growth indicates operational efficiency. Additionally, the debt ratio of 50.00% may warrant monitoring but does not raise immediate concerns. Overall, Delta exhibits normal financial patterns with no clear indicators of tax evasion.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio is 18.00%, within the typical range of 15-25%",
+          "profit_margin": "The profit margin is 20.00%, indicating healthy profitability",
+          "revenue_vs_employee_growth": "Revenue growth of 15.00% aligns well with employee growth of 12.00%",
+          "debt_ratio": "The debt ratio of 50.00% is relatively high and may require monitoring",
+          "operating_expenses": "Operating expenses amount to $700,000.00"
+        },
+        "analysis_timestamp": "2026-02-07T10:46:09.814878",
+        "needs_manual_review": false,
+        "prediction_timestamp": "2026-02-07T10:46:09.807842",
+        "model_used": "gpt-3.5-turbo",
+        "ml_risk_level": 0,
+        "ml_risk_category": "No Risk",
+        "ml_confidence": 0.5142093777192813,
+        "saved_at": "2026-02-07T10:46:09.820083"
+      },
+      {
+        "company_name": "Delta",
+        "risk_level": 0,
+        "confidence_score": 0.8,
+        "risk_category": "No Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio is 18.00%, within the typical range of 15-25%",
+          "The profit margin is 20.00%, indicating healthy profitability",
+          "The revenue growth of 15.00% aligns well with the employee growth of 12.00%"
+        ],
+        "red_flags": [],
+        "reasoning": "Based on the analysis of Delta's financial indicators, there are no significant red flags or anomalies that suggest tax evasion. The tax-to-revenue ratio falls within the industry norm of 15-25%, indicating appropriate tax payments. The profit margin is healthy at 20.00%, and the revenue growth correlates reasonably with employee growth. Additionally, the debt ratio of 50.00% is not alarming given the company's profitability and revenue growth.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio of 18.00% is within the typical range, indicating compliance with tax obligations.",
+          "profit_margin": "The profit margin of 20.00% reflects healthy profitability, reducing the likelihood of tax evasion.",
+          "revenue_vs_employee_growth": "The correlation between revenue growth and employee growth suggests effective resource utilization.",
+          "debt_ratio": "The debt ratio of 50.00% is relatively high but can be justified by the company's profitability and growth.",
+          "operating_expenses": "The operating expenses of $700,000.00 seem reasonable considering the scale of sales and revenue."
+        },
+        "analysis_timestamp": "2026-02-07T10:46:35.491960",
+        "needs_manual_review": false,
+        "prediction_timestamp": "2026-02-07T10:46:35.485860",
+        "model_used": "gpt-3.5-turbo",
+        "ml_risk_level": 0,
+        "ml_risk_category": "No Risk",
+        "ml_confidence": 0.5142093777192813,
+        "saved_at": "2026-02-07T10:46:35.494707"
+      },
+      {
+        "company_name": "Gamma",
+        "risk_level": 0,
+        "confidence_score": 0.85,
+        "risk_category": "No Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio is 18.00%, within the typical range of 15-25%",
+          "The profit margin is 20.00%, indicating healthy profitability",
+          "The revenue growth of 15.00% is higher than the employee growth of 12.00%, but still reasonably correlated"
+        ],
+        "red_flags": [],
+        "reasoning": "Based on the analysis of Gamma's financial indicators, there are no significant red flags or suspicious patterns indicating tax evasion. The tax-to-revenue ratio of 18.00% falls within the industry norm of 15-25%, suggesting appropriate tax compliance. The profit margin of 20.00% reflects a healthy level of profitability, further reducing the likelihood of tax evasion. Additionally, the revenue growth outpacing employee growth is a positive sign of efficiency and potential scalability. The debt ratio of 50.00% may be a bit high, but it does not directly indicate tax evasion.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio is within the typical range, indicating compliance.",
+          "profit_margin": "The profit margin is healthy, showing no signs of profit manipulation.",
+          "revenue_vs_employee_growth": "Although revenue growth slightly outpaces employee growth, the correlation is still reasonable.",
+          "debt_ratio": "The debt ratio is relatively high at 50.00%, which may warrant monitoring for financial health but does not directly point to tax evasion.",
+          "operating_expenses": "Operating expenses are $700,000.00, which seems reasonable relative to sales."
+        },
+        "analysis_timestamp": "2026-02-07T10:55:30.153563",
+        "needs_manual_review": false,
+        "prediction_timestamp": "2026-02-07T10:55:30.141438",
+        "model_used": "gpt-3.5-turbo",
+        "ml_risk_level": 0,
+        "ml_risk_category": "No Risk",
+        "ml_confidence": 0.9889513218915337,
+        "saved_at": "2026-02-07T10:55:30.158065"
+      },
+      {
+        "company_name": "Gamma",
+        "risk_level": 0,
+        "confidence_score": 0.85,
+        "risk_category": "No Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio is 18.00%, within the typical range of 15-25%",
+          "The profit margin is 20.00%, indicating healthy profitability",
+          "The revenue growth of 15.00% aligns well with the employee growth of 12.00%"
+        ],
+        "red_flags": [],
+        "reasoning": "Gamma shows no clear red flags for tax evasion risk based on the provided financial indicators. The tax-to-revenue ratio of 18.00% falls within the industry norm of 15-25%, suggesting appropriate tax compliance. The profit margin of 20.00% indicates efficient cost management and healthy profitability. The revenue growth of 15.00% is supported by the employee growth of 12.00%, indicating effective utilization of resources. The debt ratio of 50.00% may warrant monitoring for future leverage concerns, but it does not directly indicate tax evasion. Overall, Gamma exhibits normal financial patterns with no significant anomalies.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio is within the typical range, indicating compliance.",
+          "profit_margin": "The profit margin is healthy, reflecting efficient operations.",
+          "revenue_vs_employee_growth": "The correlation between revenue and employee growth is reasonable.",
+          "debt_ratio": "The debt ratio is high at 50.00%, suggesting potential leverage concerns.",
+          "operating_expenses": "Operating expenses are $700,000.00, which seems reasonable relative to sales."
+        },
+        "analysis_timestamp": "2026-02-07T10:56:03.168986",
+        "needs_manual_review": false,
+        "prediction_timestamp": "2026-02-07T10:56:03.157584",
+        "model_used": "gpt-3.5-turbo",
+        "ml_risk_level": 0,
+        "ml_risk_category": "No Risk",
+        "ml_confidence": 0.9889513218915337,
+        "saved_at": "2026-02-07T10:56:03.173967"
+      },
+      {
+        "company_name": "Gamma",
+        "risk_level": 0,
+        "confidence_score": 0.85,
+        "risk_category": "No Risk",
+        "key_findings": [
+          "Tax-to-Revenue Ratio within industry norms at 18.00%",
+          "Profit Margin at 20.00% aligns with healthy profitability",
+          "Reasonable Revenue Growth of 15.00% compared to Employee Growth of 12.00%"
+        ],
+        "red_flags": [],
+        "reasoning": "Gamma shows no clear red flags for tax evasion risk based on the provided financial data. The Tax-to-Revenue Ratio of 18.00% falls within the typical industry range of 15-25%, indicating a reasonable tax contribution. The Profit Margin of 20.00% reflects healthy profitability, and the Revenue Growth of 15.00% is in line with the Employee Growth of 12.00%, suggesting efficient scaling. While the Debt Ratio is high at 950.00%, it does not directly indicate tax evasion without further context. Overall, Gamma exhibits normal financial patterns with no significant anomalies.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The Tax-to-Revenue Ratio of 18.00% is within industry norms, indicating compliance with tax obligations.",
+          "profit_margin": "The Profit Margin of 20.00% reflects healthy profitability and does not raise concerns about tax evasion.",
+          "revenue_vs_employee_growth": "The correlation between Revenue Growth (15.00%) and Employee Growth (12.00%) is reasonable, suggesting efficient utilization of resources.",
+          "debt_ratio": "The high Debt Ratio of 950.00% is a concern for solvency but does not directly point to tax evasion.",
+          "operating_expenses": "Operating Expenses of $700,000.00 seem reasonable relative to Sales of $1,000,000.00, indicating efficient cost management."
+        },
+        "analysis_timestamp": "2026-02-07T10:56:10.488513",
+        "rule_based_validation": {
+          "rules_triggered": [
+            "High debt ratio noted"
+          ],
+          "validation_passed": true
+        },
+        "needs_manual_review": false,
+        "prediction_timestamp": "2026-02-07T10:56:10.478342",
+        "model_used": "gpt-3.5-turbo",
+        "ml_risk_level": 0,
+        "ml_risk_category": "No Risk",
+        "ml_confidence": 0.9889513218915337,
+        "saved_at": "2026-02-07T10:56:10.491169"
+      },
+      {
+        "company_name": "Gamma",
+        "risk_level": 1,
+        "confidence_score": 0.85,
+        "risk_category": "Medium Risk",
+        "key_findings": [
+          "The profit margin of 0.20% is significantly lower than industry averages, indicating potential profit manipulation.",
+          "The debt ratio of 950.00% is extremely high and raises concerns about financial stability and potential tax evasion.",
+          "The tax-to-revenue ratio of 18.00% falls within the typical range but should be monitored closely due to other red flags."
+        ],
+        "red_flags": [
+          "Low profit margin compared to industry norms",
+          "Excessively high debt ratio"
+        ],
+        "reasoning": "Gamma exhibits concerning financial indicators that suggest a medium risk of tax evasion. The profit margin of 0.20% is notably lower than industry averages, indicating possible profit manipulation to reduce taxable income. Additionally, the extremely high debt ratio of 950.00% raises red flags about the company's financial stability and potential tax evasion strategies. While the tax-to-revenue ratio of 18.00% is within the typical range, the combination of low profit margin and high debt ratio warrants monitoring for any inconsistencies or evasion tactics.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio of 18.00% is within the typical range, indicating no immediate red flag.",
+          "profit_margin": "The profit margin of 0.20% is significantly lower than industry norms, suggesting potential profit manipulation.",
+          "revenue_vs_employee_growth": "The revenue growth of 15.00% correlates reasonably with the employee growth of 0.12%, indicating no major concerns.",
+          "debt_ratio": "The debt ratio of 950.00% is excessively high, indicating financial instability and potential tax evasion strategies.",
+          "operating_expenses": "The operating expenses of $700,000.00 seem reasonable compared to the sales revenue, showing no immediate red flag."
+        },
+        "analysis_timestamp": "2026-02-07T10:56:40.183332",
+        "rule_based_validation": {
+          "rules_triggered": [
+            "High debt ratio noted"
+          ],
+          "validation_passed": true
+        },
+        "needs_manual_review": false,
+        "prediction_timestamp": "2026-02-07T10:56:40.173432",
+        "model_used": "gpt-3.5-turbo",
+        "ml_risk_level": 0,
+        "ml_risk_category": "No Risk",
+        "ml_confidence": 0.9889513218915337,
+        "saved_at": "2026-02-07T10:56:40.186139"
+      },
+      {
+        "company_name": "AlphaGo",
+        "risk_level": 0,
+        "confidence_score": 0.85,
+        "risk_category": "No Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio is 18.00%, within the typical range of 15-25%",
+          "Profit margin is 20.00%, indicating healthy profitability",
+          "Revenue growth of 15.00% is in line with employee growth of 12.00%"
+        ],
+        "red_flags": [],
+        "reasoning": "Based on the analysis of AlphaGo's financial indicators, there are no significant red flags or anomalies that suggest tax evasion. The tax-to-revenue ratio of 18.00% falls within the industry norm of 15-25%, indicating a reasonable tax payment. The profit margin of 20.00% reflects a healthy level of profitability, and the revenue growth aligns well with the employee growth rate. The debt ratio of 50.00% is relatively high but does not raise immediate concerns given the other positive indicators. Overall, the financial data does not indicate any high-risk patterns of tax evasion.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio of 18.00% is within the typical range, suggesting compliance with tax obligations.",
+          "profit_margin": "The profit margin of 20.00% indicates healthy profitability and does not raise suspicions of tax evasion.",
+          "revenue_vs_employee_growth": "The correlation between revenue growth and employee growth is reasonably aligned, indicating a healthy business expansion.",
+          "debt_ratio": "The debt ratio of 50.00% is relatively high but does not directly point to tax evasion.",
+          "operating_expenses": "The operating expenses of $700,000.00 seem reasonable compared to the sales revenue of $1,000,000.00, supporting the company's financial stability."
+        },
+        "analysis_timestamp": "2026-02-07T10:57:58.521048",
+        "needs_manual_review": false,
+        "prediction_timestamp": "2026-02-07T10:57:58.511354",
+        "model_used": "gpt-3.5-turbo",
+        "ml_risk_level": 0,
+        "ml_risk_category": "No Risk",
+        "ml_confidence": 0.9889513218915337,
+        "saved_at": "2026-02-07T10:57:58.524731"
+      },
+      {
+        "company_name": "AlphaGo",
+        "risk_level": 0,
+        "confidence_score": 0.85,
+        "risk_category": "No Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio of 18.00% falls within the typical industry range of 15-25%.",
+          "The profit margin of 20.00% is healthy and aligns with industry standards.",
+          "The revenue growth of 15.00% is reasonable and correlates well with the employee growth rate of 12.00%."
+        ],
+        "red_flags": [],
+        "reasoning": "Based on the analysis of AlphaGo's financial indicators, there are no significant red flags or anomalies that indicate a high risk of tax evasion. The tax-to-revenue ratio of 18.00% is within the industry norm of 15-25%, suggesting that the company is paying an appropriate amount of taxes. The profit margin of 20.00% indicates a healthy level of profitability, and the revenue growth of 15.00% aligns well with the employee growth rate of 12.00%, indicating efficient scaling. The debt ratio of 50.00% is relatively high but not necessarily indicative of tax evasion, as it could be a strategic financing decision. Overall, AlphaGo shows no clear signs of tax evasion.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio of 18.00% is in line with industry norms, indicating no abnormal tax behavior.",
+          "profit_margin": "The profit margin of 20.00% is healthy and suggests efficient cost management.",
+          "revenue_vs_employee_growth": "The correlation between revenue growth (15.00%) and employee growth (12.00%) is positive, indicating effective utilization of resources.",
+          "debt_ratio": "The debt ratio of 50.00% is relatively high, but it does not directly point to tax evasion.",
+          "operating_expenses": "The operating expenses of $700,000.00 seem reasonable compared to the sales revenue of $1,000,000.00."
+        },
+        "analysis_timestamp": "2026-02-07T18:02:07.918357",
+        "needs_manual_review": false,
+        "prediction_timestamp": "2026-02-07T18:02:07.884373",
+        "model_used": "gpt-3.5-turbo",
+        "ml_risk_level": 0,
+        "ml_risk_category": "No Risk",
+        "ml_confidence": 0.9992244255214301,
+        "saved_at": "2026-02-07T18:02:07.920231"
+      },
+      {
+        "company_name": "Delta",
+        "risk_level": 0,
+        "confidence_score": 0.85,
+        "risk_category": "No Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio is 18.00%, within the typical range of 15-25%",
+          "Profit margin is 20.00%, indicating healthy profitability",
+          "Revenue growth of 15.00% is higher than the employee growth of 12.00%, but still reasonable"
+        ],
+        "red_flags": [],
+        "reasoning": "Based on the analysis of Delta's financial indicators, there are no significant red flags or suspicious patterns indicating tax evasion. The tax-to-revenue ratio of 18.00% falls within the industry norm of 15-25%, suggesting appropriate tax compliance. The profit margin of 20.00% reflects healthy profitability, further reducing the likelihood of tax evasion. Additionally, the revenue growth outpacing employee growth indicates efficient operations without clear signs of evasion. Overall, Delta shows no alarming signs of tax evasion based on the provided data.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio is within the typical range, indicating compliance.",
+          "profit_margin": "The profit margin is healthy, reflecting good financial performance.",
+          "revenue_vs_employee_growth": "While revenue growth slightly outpaces employee growth, it is still reasonable.",
+          "debt_ratio": "Debt ratio of 50.00% should be monitored for potential future impact on financial stability.",
+          "operating_expenses": "Operating expenses are $700,000.00, which seems reasonable relative to sales."
+        },
+        "analysis_timestamp": "2026-02-07T22:20:04.725995",
+        "needs_manual_review": false,
+        "prediction_timestamp": "2026-02-07T22:20:04.691942",
+        "model_used": "gpt-3.5-turbo",
+        "ml_risk_level": 0,
+        "ml_risk_category": "No Risk",
+        "ml_confidence": 0.9987518737592644,
+        "saved_at": "2026-02-07T22:20:04.728510"
+      },
+      {
+        "company_name": "Delta",
+        "risk_level": 0,
+        "confidence_score": 0.85,
+        "risk_category": "No Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio is 18.00%, within the typical range of 15-25%",
+          "Profit margin is 20.00%, indicating healthy profitability",
+          "Revenue growth of 15.00% is higher than the employee growth rate of 12.00%"
+        ],
+        "red_flags": [],
+        "reasoning": "Based on the analysis of Delta's financial indicators, there are no significant red flags or suspicious patterns indicating tax evasion. The tax-to-revenue ratio of 18.00% falls within the industry norm of 15-25%, suggesting compliance with tax obligations. The profit margin of 20.00% reflects a healthy level of profitability. The revenue growth of 15.00% outpacing the employee growth of 12.00% indicates efficient utilization of resources. Additionally, the debt ratio of 50.00% may warrant monitoring for future leverage considerations, but it does not raise immediate concerns of tax evasion.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio is within the typical range, indicating compliance.",
+          "profit_margin": "The profit margin is healthy, showing no signs of profit manipulation.",
+          "revenue_vs_employee_growth": "The revenue growth outpacing employee growth suggests operational efficiency.",
+          "debt_ratio": "The debt ratio of 50.00% is relatively high and may require monitoring for future financial stability.",
+          "operating_expenses": "Operating expenses are $700,000.00, which seems reasonable relative to sales."
+        },
+        "analysis_timestamp": "2026-02-08T08:50:49.251005",
+        "needs_manual_review": false,
+        "prediction_timestamp": "2026-02-08T08:50:49.211911",
+        "model_used": "gpt-3.5-turbo",
+        "ml_risk_level": 0,
+        "ml_risk_category": "No Risk",
+        "ml_confidence": 0.6760393011057836,
+        "saved_at": "2026-02-08T08:50:49.254481"
+      },
+      {
+        "company_name": "AlphaGo",
+        "risk_level": 0,
+        "confidence_score": 0.85,
+        "risk_category": "No Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio is 18.00%, within the typical range of 15-25%",
+          "Profit margin is 20.00%, indicating healthy profitability",
+          "Revenue growth of 15.00% is higher than the employee growth of 12.00%, but still reasonable"
+        ],
+        "red_flags": [],
+        "reasoning": "Based on the analysis of AlphaGo's financial indicators, there are no significant red flags or suspicious patterns indicating tax evasion. The tax-to-revenue ratio of 18.00% falls within the industry norm of 15-25%, suggesting appropriate tax compliance. The profit margin of 20.00% reflects a healthy level of profitability, and the revenue growth of 15.00% outpacing the employee growth of 12.00% indicates efficient operations. The debt ratio of 50.00% may be a bit high, but it does not directly point to tax evasion. Overall, the financial indicators do not raise concerns about tax evasion risk.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio is 18.00%, within the typical range, indicating compliance.",
+          "profit_margin": "The profit margin of 20.00% is healthy and does not suggest evasion.",
+          "revenue_vs_employee_growth": "The revenue growth outpacing employee growth shows operational efficiency.",
+          "debt_ratio": "The debt ratio of 50.00% is relatively high but does not directly indicate tax evasion.",
+          "operating_expenses": "Operating expenses of $700,000.00 seem reasonable relative to sales."
+        },
+        "analysis_timestamp": "2026-02-08T10:05:34.081781",
+        "needs_manual_review": false,
+        "prediction_timestamp": "2026-02-08T10:05:33.994406",
+        "model_used": "gpt-3.5-turbo",
+        "ml_risk_level": 0,
+        "ml_risk_category": "No Risk",
+        "ml_confidence": 0.6760393011057836,
+        "saved_at": "2026-02-08T10:05:34.084482"
+      },
+      {
+        "company_name": "Delta GO",
+        "risk_level": 0,
+        "confidence_score": 0.85,
+        "risk_category": "No Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio is 18.00%, within the typical range of 15-25%.",
+          "The profit margin is 20.00%, indicating healthy profitability.",
+          "The revenue growth of 15.00% aligns well with the employee growth of 12.00%."
+        ],
+        "red_flags": [],
+        "reasoning": "Based on the analysis of Delta GO's financial indicators, there are no significant red flags or suspicious patterns indicating tax evasion. The tax-to-revenue ratio of 18.00% falls within the industry norm of 15-25%, suggesting appropriate tax compliance. The profit margin of 20.00% reflects a healthy level of profitability, and the revenue growth of 15.00% correlates reasonably with the employee growth of 12.00%. Additionally, the debt ratio of 50.00% and operating expenses of $700,000.00 do not raise any immediate concerns.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio is within the typical range, indicating no evasion risk.",
+          "profit_margin": "The profit margin is healthy, showing no signs of evasion.",
+          "revenue_vs_employee_growth": "The correlation between revenue growth and employee growth is reasonable.",
+          "debt_ratio": "The debt ratio is high at 50.00%, but not necessarily indicative of tax evasion on its own.",
+          "operating_expenses": "The operating expenses are in line with the company's sales revenue."
+        },
+        "analysis_timestamp": "2026-02-08T10:09:27.327277",
+        "needs_manual_review": false,
+        "prediction_timestamp": "2026-02-08T10:09:27.284734",
+        "model_used": "gpt-3.5-turbo",
+        "ml_risk_level": 0,
+        "ml_risk_category": "No Risk",
+        "ml_confidence": 0.604025388594504,
+        "saved_at": "2026-02-08T10:09:27.329252"
+      },
+      {
+        "company_name": "AlphaGo",
+        "risk_level": 0,
+        "confidence_score": 0.85,
+        "risk_category": "No Risk",
+        "key_findings": [
+          "The tax-to-revenue ratio is 18.00%, within the typical range of 15-25%",
+          "Profit margin is 20.00%, indicating healthy profitability",
+          "Revenue growth of 15.00% is in line with employee growth of 12.00%"
+        ],
+        "red_flags": [],
+        "reasoning": "Based on the analysis of AlphaGo's financial indicators, there are no significant red flags or anomalies that suggest tax evasion. The tax-to-revenue ratio of 18.00% falls within the industry norm of 15-25%, indicating a reasonable tax payment. The profit margin of 20.00% is healthy, showing that the company is generating profits efficiently. The revenue growth of 15.00% aligns well with the employee growth of 12.00%, indicating effective utilization of resources. The debt ratio of 50.00% is relatively high but not alarming given the profitability and growth rates. Overall, AlphaGo exhibits normal financial patterns with appropriate tax ratios.",
+        "financial_indicators_analysis": {
+          "tax_to_revenue_ratio": "The tax-to-revenue ratio is 18.00%, within the typical range of 15-25%",
+          "profit_margin": "The profit margin of 20.00% indicates healthy profitability",
+          "revenue_vs_employee_growth": "The correlation between revenue growth (15.00%) and employee growth (12.00%) is reasonable",
+          "debt_ratio": "The debt ratio of 50.00% is relatively high but not alarming",
+          "operating_expenses": "Operating expenses of $700,000.00 seem reasonable compared to sales revenue"
+        },
+        "analysis_timestamp": "2026-02-08T10:12:11.009420",
+        "needs_manual_review": false,
+        "prediction_timestamp": "2026-02-08T10:12:10.876899",
+        "model_used": "gpt-3.5-turbo",
+        "ml_risk_level": 0,
+        "ml_risk_category": "No Risk",
+        "ml_confidence": 0.6760393011057836,
+        "saved_at": "2026-02-08T10:12:11.011213"
+      }
+    ],
+    "created_at": "2026-02-07T10:10:52.935324"
+  }
+}
